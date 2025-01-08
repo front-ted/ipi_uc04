@@ -1,0 +1,49 @@
+
+.bg-escuro .accordion-body p{
+    color: #000;
+}
+
+.bg-escuro .modal-body p{
+    color: #000;
+}
+
+.bg-escuro .modal-body li{
+    color: #000;
+}
+
+.bg-escuro .modal-body *{
+    color: #000;
+}
+
+
+@media screen and (max-width:1440px) {
+
+}
+
+
+@media screen and (max-width:1024px) {
+
+}
+
+
+
+@media screen and (max-width:820px) {
+
+}
+
+@media screen and (max-width:768px) {
+
+}
+
+
+
+@media screen and (max-width:500px) {
+
+
+}
+
+
+@media screen and (max-width:375px) {
+
+
+}

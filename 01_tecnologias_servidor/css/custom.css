@@ -1,5 +1,5 @@
 body {
-    background: 
+    background:
         url('../img/bg_top.png') no-repeat top,
         url('../img/bg_elem2.png') no-repeat 0% 25%,
         url('../img/bg_elem3.png') no-repeat 100% 24%,
@@ -8,7 +8,6 @@ body {
         url('../img/BG_bottom.png') no-repeat bottom;
     background-size: 100%, 25%, 18%, 20%, 20%, auto;
 }
-
 
 .ilustracao {
     border-radius: 20px;
@@ -169,34 +168,34 @@ body {
     margin-top: 40%;
 }
 
+.bg-escuro .accordion-body p{
+    color: #000;
+}
+
+.bg-escuro .modal-body p{
+    color: #000;
+}
+
+.bg-escuro .modal-body li{
+    color: #000;
+}
+
+.bg-escuro .modal-body *{
+    color: #000;
+}
 
 
 @media screen and (max-width:1440px) {
     body {
         background: url('../img/bg_top.png') no-repeat top,
-        url('../img/bg_elem2.png') no-repeat 0% 25%,
-        url('../img/bg_elem3.png') no-repeat 100% 24%,
-        url('../img/BG_elem5.png') no-repeat 100% 65%,
-        url('../img/BG_elem4.png') no-repeat 0% 71%,
-        url('../img/BG_bottom.png') no-repeat bottom;
-
-
+            url('../img/bg_elem2.png') no-repeat 0% 25%,
+            url('../img/bg_elem3.png') no-repeat 100% 24%,
+            url('../img/BG_elem5.png') no-repeat 100% 65%,
+            url('../img/BG_elem4.png') no-repeat 0% 71%,
+            url('../img/BG_bottom.png') no-repeat bottom;
         background-size: 100%, 25%, 18%, 20%, 20%, 100%;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 @media screen and (max-width:1024px) {
@@ -228,7 +227,6 @@ body {
         margin-left: -15%;
         margin-top: -8%;
     }
-
 }
 
 
@@ -280,7 +278,5 @@ body {
     .painel-empresas {
         margin-left: -1%;
     }
-
-
 
 }
