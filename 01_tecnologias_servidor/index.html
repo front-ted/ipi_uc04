@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <!-- Inserir o tíutlo do conhecimento na tag title -->
+    <title>Tecnologias de servidor web: conceitos e princípios de funcionamento</title>
+    <!-- Meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS v5.0.2 -->
+    <link rel="stylesheet" href="../assets/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/fa/css/all.min.css">
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="../assets/css/animate.min.css" />
+    <!-- hover.css https://ianlunn.github.io/Hover/ -->
+    <link rel="stylesheet" href="../assets/css/hover-min.css" />
+    <!--Splide - slideshow-->
+    <link rel="stylesheet" href="../assets/css/splide.min.css">
+    <!-- Preloader -->
+    <link rel="stylesheet" href="../assets/css/preloader.css">
+    <!-- Áudio customizado -->
+    <link rel="stylesheet" href="../assets/css/player.css">
+    <!-- Estilos do template -->
+    <link rel="stylesheet" href="../assets/css/cores.css">
+    <link rel="stylesheet" href="../print/print/print.css">
+    <link rel="stylesheet" href="../assets/css/template.css">
+    <link rel="stylesheet" href="css/custom.css">
+
+</head>
+
+<body class="bg-claro">
+    <!-- Preloader OBRIGATÓRIO -->
+    <div class="preloader">
+        <div class="anim"></div>
+        <p>Aguarde enquanto o conteúdo é carregado.</p>
+    </div>
+    <!-- Marca d'água OBRIGATÓRIA -->
+    <img src="../assets/images/logo_senac_colorido.png" id="marcadaguaLogo">
+
+    <header id="topo">
+        <div class="topo-logo">
+            <div class="container">
+                <h1 id="nome-curso" class="only-print">Informática para Internet</h1>
+                <div id="toggleButton" class="btn-tema_pagina no-print" onclick="toggleBackgroundImage()"
+                    aria-hidden="true"></div>
+            </div>
+        </div>
+    </header>
+    <!-- Section principal #booklet OBRIGATÓRIO para funcionamento do print -->
+    <section id="booklet">
+        <div class="layer-preta no-print"></div>
+        <!-- Section .paginas OBRIGATÓRIA para funcionamento da paginação e do print -->
+        <section class="paginas">
+            <div class="pagina">
+                <div class="container">
+                    <h2>Tecnologias de servidor <i>web</i>: conceitos e princípios de funcionamento</h2>
+                    <p>
+                        Os servidores <i>web</i> são componentes fundamentais para o funcionamento de aplicativos,
+                        <i>websites</i> e
+                        serviços digitais que dependem da comunicação com a internet. Por meio deles, é possível
+                        hospedar e
+                        distribuir dados, proporcionando uma experiência integrada para os usuários. Os sistemas de
+                        servidor
+                        têm evoluído para atender as necessidades de empresas e usuários, facilitando o acesso a
+                        conteúdo em
+                        qualquer lugar e a qualquer momento.
+                    </p>
+                    <p>
+                        Na figura a seguir, é possível ver um registro histórico: Tim Berners-Lee, conhecido como o pai
+                        da
+                        <i>world wide web</i> (o famoso WWW), ao lado de uma página <i>web</i> hospedada no primeiro
+                        servidor <i>web</i> da
+                        história.
+                    </p>
+                    <figure class="my-5">
+                        <div class="figure-img mb-4">
+                            <img class="img-fluid d-block ilustracao mx-auto" src="img/img1.jpg">
+                        </div>
+                        <figcaption class="figure-caption text-center">
+                            Tim Berners-Lee e o primeiro servidor web da história <br>
+                            Fonte: Souza (2018)
+                        </figcaption>
+                    </figure>
+                    <p class="acessivel visually-hidden no-print">
+                        Fotografia de um homem na casa dos 40 anos ao lado de um monitor CRT com uma página utilizando a
+                        world wide web (www).
+                    </p>
+                    <p>
+                        Neste material, serão exploradas as tecnologias de servidores <i>web</i>, apresentando os
+                        conceitos básicos
+                        e os princípios de funcionamento. Serão abordadas também as diferenças entre servidores Linux e
+                        Windows, duas plataformas amplamente utilizadas, com foco em suas características, vantagens e
+                        desvantagens. Por fim, você verá um comparativo com exemplos práticos de empresas globais
+                        consolidadas que utilizam esses servidores, incluindo estudos de caso específicos.
+                    </p>
+                    <div class="diisoria">
+                        <img src="img/div.png" class="no-print img-fluid d-block mx-auto mt-5 mb-5">
+                    </div>
+                    <h3>Conceitos e princípios das tecnologias de servidor <i>web</i></h3>
+                    <p>
+                        Os servidores <i>web</i> são fundamentais para a internet, gerenciando solicitações, processando
+                        dados
+                        e
+                        entregando conteúdo. O primeiro servidor HTTP (<i>hypertext transfer protocol</i>) e WWW, criado
+                        no
+                        CERN
+                        (Organização Europeia para a Pesquisa Nuclear), trazia no gabinete o aviso: “<i>This machine is
+                            a
+                            server. DO NOT POWER DOWN</i>” (em tradução livre: “Esta máquina é um servidor. NÃO
+                        DESLIGUE”),
+                        simbolizando sua importância para a nascente WWW. Esses sistemas continuam sendo a base de
+                        projetos
+                        digitais, unindo desempenho, segurança e escalabilidade.
+                    </p>
+                    <figure class="my-5 no-print">
+                        <img src="img/img2.jpg"
+                            class="img-fluid d-block mx-auto p-2 mb-3 d-none d-sm-none d-md-block d-lg-block radius"
+                            alt="Imagem">
+                        <a href="img/img2.jpg" target="_blank" class="img-zoom d-sm-block d-md-none d-lg-none no-print">
+                            <img src="img/img2.jpg"
+                                class="img-fluid d-block mx-auto p-2 mb-3 d-sm-block d-md-none d-lg-none radius"
+                                alt="Imagem">
+                        </a>
+                        <figcaption class="figure-caption text-center mb-5">
+                            Primeiro servidor usando HTTP e WWW do mundo <br>
+                            Fonte: Almenara (2021)
+                        </figcaption>
+                    </figure>
+                    <p class="acessivel visually-hidden no-print">
+                        Na fotografia, é possível ver o primeiro servidor web, um monitor CRT preto e um gabinete em
+                        formato de cubo preto. No gabinete, há o adesivo onde se pode ler: “This machine is a server. DO
+                        NOT POWER DOWN”, que, em uma tradução livre, quer dizer: “Esta máquina é um servidor, NÃO
+                        DESLIGUE”.
+                    </p>
+                    <p>
+                        Servidores <i>web</i> são sistemas computacionais que armazenam, processam e distribuem conteúdo e serviços
+                        para usuários que os acessam por meio da internet. A principal função de um servidor <i>web</i> é responder
+                        a solicitações de um navegador (cliente) usando o protocolo HTTP ou HTTPS (<i>hypertext transfer
+                        protocol secure</i>). A resposta pode conter dados, como páginas HTML (hypertext markup language),
+                        arquivos de imagem, documentos ou até mesmo respostas complexas de APIs (<i>application programming
+                        interface</i>).
+                    </p>
+                    <p>O funcionamento de um servidor <i>web</i> envolve três principais elementos:</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    <a href="#" class="voltar-topo no-print" aria-hidden="true"><img
+                            src="../assets/images/bt_topo.svg"></a>
+                </div>
+            </div>
+        </section>
+        <!-- Paginação-->
+        <!-- <footer class="text-center no-print d-flex justify-content-center mx-auto">
+                <ul class="pagination">
+    
+                </ul>
+            </footer>    -->
+    </section>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="../assets/bootstrap/bootstrap.bundle.min.js"></script>
+    <!--Jquery-->
+    <script src="../assets/js/jquery-3.6.0.min.js"></script>
+    <!--Áudio customizado-->
+    <script src="../assets/js/audio-player.js"></script>
+    <!--Splide - slideshow-->
+    <script src="../assets/js/splide.min.js"></script>
+    <!--Prog'n'roll - barra de progresso conforme rola a página-->
+    <script src="../assets/js/prognroll.min.js"></script>
+    <script src="../print/print/template.config.js"></script>
+    <!--Scripts gerais-->
+    <script src="../assets/js/geral.js"></script>
+
+    <script>
+        var splide = new Splide('.splide', {
+            type: 'slide',
+            perPage: 2,
+            trimSpace: false,
+            focus: 'center'
+        });
+
+        splide.mount();
+
+        $(function () {
+            $("body").prognroll();
+        });
+    </script>
+
+    <!-- Handtalk -->
+    <script>
+        var scriptElem = document.createElement("script");
+        scriptElem.src = "https://plugin.handtalk.me/web/latest/handtalk.min.js",
+            scriptElem.charset = "UTF-8",
+            scriptElem.onload = function () {
+                window.ht = new HT({
+                    token: "bf5b7efb148a829a126a0e0c9fd533bf",
+                    align: "top",
+                    videoEnabled: true,
+                    ytEmbedReplace: true,
+                    mobileConfig: {
+                        align: "right",
+                        actionsAlign: "top",
+                        customButtonStyle: {
+                            borderRadius: "6px",
+                            size: "38px",
+                            horizontalMargin: "13px",
+                            bottomMargin: "140px",
+                            rightMargin: "40px"
+                        }
+                    }
+                });
+                $('.ht-skip').attr("aria-hidden", "true")
+            },
+            document.body.appendChild(scriptElem);
+
+    </script>
+</body>
+
+</html>
