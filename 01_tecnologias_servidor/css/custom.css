@@ -1,4 +1,49 @@
-.ilustracao{
+.ilustracao {
     border-radius: 20px;
-    filter: drop-shadow(5px 5px 4px rgba(0,0,0,0.2));  
+    filter: drop-shadow(5px 5px 4px rgba(0, 0, 0, 0.2));
+}
+
+.mr-3 {
+    margin-right: 3px;
+}
+
+.painel-sistemas {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.btn-linux {
+    background: url('../img/bt1.png') no-repeat;
+    width: 253px;
+    height: 253px;
+    border: none;
+}
+
+.btn-linux:hover {
+    background: url('../img/bt1_hv.png') no-repeat;
+    border: none;
+}
+
+.btn-windows {
+    background: url('../img/bt2.png') no-repeat;
+    width: 253px;
+    height: 253px;
+    border: none;
+}
+
+.btn-windows:hover {
+    background: url('../img/bt2_hv.png') no-repeat;
+    border: none;
+}
+
+
+
+
+
+@media screen and (max-width:500px) {
+    .painel-sistemas {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
 }
