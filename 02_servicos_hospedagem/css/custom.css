@@ -10,6 +10,10 @@
     position: relative;
 }
 
+.bg-escuro .bloco1{
+    position: unset;
+}
+
 .bloco1 h2 {
     color: #fff;
 }
@@ -27,11 +31,25 @@
     padding-right: 3%;
     position: relative;
     padding-bottom: 5%;
+    margin-bottom: -6%;
 }
 
 .bloco2{
-    background: url('../img/bg2.jpg') no-repeat;
-    background-attachment: fixed;
+    background: url('../img/bg2.jpg') repeat;
+    background-size: 100%;
+}
+
+.bloco3{
+    background: url('../img/bg3.jpg') no-repeat;
+    padding-top: 10%;
+}
+
+.bloco3 h3{
+    color: #fff;
+}
+
+.bloco3 p{
+    color: #fff;
 }
 
 .ilustracao {
@@ -43,6 +61,25 @@
     margin-top: 5%;
 }
 
+.img-destaque2{
+    margin-top: 32%;
+}
+
+.bg-escuro .bloco2 p{
+    color: #000;
+}
+
+.bg-escuro .bloco2 h3{
+    color: #000;
+}
+
+.bg-escuro .bloco2 h4{
+    color: #000;
+}
+
+.bg-escuro .bloco2 figcaption{
+    color: #4a4a4a;
+}
 
 .bg-escuro .accordion-body p {
     color: #000;
@@ -65,6 +102,11 @@
     .img-inicio {
         transform: scale(0.9);
     }
+
+    .bloco2{
+        background: url('../img/bg2.jpg') repeat;
+        background-size: 100%;
+    }
 }
 
 
@@ -79,6 +121,10 @@
     .img-inicio {
         display: none !important;
     }
+
+    .bloco2{
+        background: unset;
+    }
 }
 
 
@@ -87,11 +133,19 @@
     .img-destaque {
         margin-top: 17%;
     }
+
+    .img-destaque2 {
+        margin-top: 54%;
+    }
 }
 
 @media screen and (max-width:768px) {
     .img-destaque {
         margin-top: 6%;
+    }
+
+    .img-destaque2 {
+        margin-top: 34%;
     }
 }
 
@@ -100,6 +154,28 @@
 @media screen and (max-width:500px) {
     .img-destaque {
         margin-top: unset;
+    }
+
+    .img-destaque2{
+        margin-top: unset;
+    }
+    .bloco3{
+        background-size: cover;
+    }
+
+    .bloco3 .container{
+        padding-top: 12%;
+    }
+    .bloco2 .container {
+        border-radius: 80px;
+        margin-top: -7%;
+        background-color: #fff;
+        padding-top: 1.5%;
+        padding-left: 3%;
+        padding-right: 3%;
+        position: relative;
+        padding-bottom: 5%;
+        margin-bottom: -15%;
     }
 }
 
