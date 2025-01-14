@@ -35,8 +35,8 @@
 }
 
 .bloco3 {
-    background: url('../img/div3_esq.png') no-repeat 0% bottom,
-        url('../img/div3_dir.png') no-repeat 100% bottom,
+    background: url('../img/div3_esq.png') no-repeat 0% 100.1%,
+        url('../img/div3_dir.png') no-repeat 100% 100.1%,
         #4d0053;
     margin-top: -0.2%;
     padding-top: 5%;
@@ -136,6 +136,9 @@
     color: #000;
 }
 
+.bg-escuro .bloco3 figcaption{
+    color: #7f7b7b;
+}
 
 @media screen and (max-width:1440px) {
     .bloco2 {
