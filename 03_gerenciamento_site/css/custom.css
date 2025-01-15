@@ -5,10 +5,16 @@
 }
 
 .bloco1 {
-    background: url('../img/bg1.png') no-repeat;
-    padding-bottom: 3%;
+    background: url('../img/bg1_elem1.png') no-repeat 0% 15%, url('../img/bg1_elem2.png') no-repeat 100% 1%, url('../img/bg1.png') no-repeat;
+    padding-bottom: 16%;
     padding-top: 6%;
     margin-top: 0%;
+}
+
+.bloco1 .container {
+    max-width: 762px;
+    position: relative;
+    padding: 0 30px;
 }
 
 .img-divisa {
@@ -19,7 +25,7 @@
 }
 
 .img-div {
-    margin-top: 21.5%;
+    margin-top: -1%;
 }
 
 .bloco2 {
@@ -28,33 +34,90 @@
         url('../img/bg2_dir.png') no-repeat 0% 65%,
         url('../img/div2_esq.png') no-repeat 0% bottom,
         url('../img/div2_dir.png') no-repeat 100% bottom;
+    padding-top: 5%;
 }
 
 .espaco-topo {
     padding-bottom: 5%;
 }
 
-.bloco3 {
-    background: url('../img/div3_esq.png') no-repeat 0% 100.1%,
+ .bloco3 {
+    background:
+        url('../img/elem1.png') no-repeat 0% 34%,
+        url('../img/elem2.png') no-repeat 100% 49%,
+        url('../img/elem3.png') no-repeat 0% 60%,
+        url('../img/elem4.png') no-repeat 100% 72%,
+        url('../img/elem5.png') no-repeat 0% 83%,
+        url('../img/elem6.png') no-repeat 100% 93%,
+        url('../img/div3_esq.png') no-repeat 0% 100.1%,
         url('../img/div3_dir.png') no-repeat 100% 100.1%,
         #4d0053;
     margin-top: -0.2%;
     padding-top: 5%;
     padding-bottom: 5%;
     margin-bottom: -1%
-}
+} 
 
-.bloco4{
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bloco4 {
     margin-top: -5%;
     padding-top: 5%;
 }
 
-
-
-
-
-
-
+.img-encerramento {
+    margin-top: 28%;
+}
 
 .bg-escuro .bloco1 {
     position: unset;
@@ -101,6 +164,9 @@
     color: #000;
 }
 
+body {
+    overflow-x: hidden !important;
+}
 
 
 
@@ -136,14 +202,86 @@
     color: #000;
 }
 
-.bg-escuro .bloco3 figcaption{
+.bg-escuro .bloco3 figcaption {
     color: #7f7b7b;
 }
 
 @media screen and (max-width:1440px) {
+    .bloco1 {
+        background: url(../img/bg1_elem1.png) no-repeat 0% 15%, url(../img/bg1_elem2.png) no-repeat 100% 1%, url(../img/bg1.png) no-repeat, #4d0053;
+        padding-bottom: 10%;
+        padding-top: 6%;
+        margin-top: 0%;
+        background-size: 19%, 27%, contain;
+    }
+
+    .bloco1 .container {
+        max-width: 762px;
+        position: relative;
+        padding: 0 60px;
+    }
+
     .bloco2 {
-        background: url('../img/bg2.jpg') repeat;
-        background-size: 100%;
+        background: url(../img/bg2_esq.png) no-repeat 0% 15%, url(../img/bg2_dir.png) no-repeat 0% 65%, url(../img/div2_esq.png) no-repeat 0% bottom, url(../img/div2_dir.png) no-repeat 100% bottom;
+        padding-top: 5%;
+        background-size: auto, auto, 25%, 25%;
+    }
+
+    .bloco3 {
+        background: url(../img/elem1.png) no-repeat 0% 34%,
+            url(../img/elem2.png) no-repeat 100% 49%,
+            url(../img/elem3.png) no-repeat 0% 60%,
+            url(../img/elem4.png) no-repeat 100% 72%,
+            url(../img/elem5.png) no-repeat 0% 83%,
+            url(../img/elem6.png) no-repeat 100% 93%,
+            url(../img/div3_esq.png) no-repeat 0% 100.1%,
+            url(../img/div3_dir.png) no-repeat 100% 100.1%,
+            #4d0053;
+        background-size: 17%, 17%, 17%, 17%, 17%, 17%, auto, auto;
+    }
+}
+
+@media screen and (max-width:1400px) {
+    .bloco1 {
+        background: url(../img/bg1_elem1.png) no-repeat 0% 15%, url(../img/bg1_elem2.png) no-repeat 100% 1%, url(../img/bg1.png) no-repeat, #4d0053;
+        padding-bottom: 10%;
+        padding-top: 6%;
+        margin-top: 0%;
+        background-size: 19%, 27%, contain;
+    }
+
+    .bloco1 .container {
+        max-width: 762px;
+        position: relative;
+        padding: 0 50px;
+    }
+
+    .bloco2.container {
+        color: #fff;
+    }
+
+
+    .img-divisa {
+        margin-top: -22%;
+    }
+
+    .bloco3 {
+        background: url(../img/elem1.png) no-repeat 0% 34%,
+            url(../img/elem2.png) no-repeat 100% 49%,
+            url(../img/elem3.png) no-repeat 0% 60%,
+            url(../img/elem4.png) no-repeat 100% 72%,
+            url(../img/elem5.png) no-repeat 0% 83%,
+            url(../img/elem6.png) no-repeat 100% 93%,
+            url(../img/div3_esq.png) no-repeat 0% 100.1%,
+            url(../img/div3_dir.png) no-repeat 100% 100.1%,
+            #4d0053;
+        background-size: 15%, 15%, 15%, 15%, 15%, 15%, auto, auto;
+    }
+
+    .bloco2 {
+        background: url(../img/bg2_esq.png) no-repeat 0% 15%, url(../img/bg2_dir.png) no-repeat 0% 65%, url(../img/div2_esq.png) no-repeat 0% bottom, url(../img/div2_dir.png) no-repeat 100% bottom;
+        padding-top: 5%;
+        background-size: auto, auto, 15%, 15%;
     }
 }
 
@@ -151,19 +289,36 @@
 @media screen and (max-width:1366px) {}
 
 @media screen and (max-width:1024px) {
+
+    .img-encerramento {
+        margin-top: 30%;
+    }
+
+    .bloco3 {
+        background: #4d0053;
+    }
+
     .img-divisa {
-        margin-top: -30%;
+        margin-top: -23%;
         border-radius: 20px;
         filter: drop-shadow(5px 5px 4px rgba(0, 0, 0, 0.2));
         position: relative;
     }
 
-    .img-div {
-        margin-top: 43.5%;
+    .bloco1 {
+        background: url(../img/bg1.png) no-repeat;
+
     }
 
+    .img-div {
+        margin-top: -1.5%;
+    }
 
-
+    .bloco2 {
+        background: url(../img/bg2_esq.png) no-repeat 0% 15%, url(../img/bg2_dir.png) no-repeat 0% 65%, url(../img/div2_esq.png) no-repeat 0% bottom, url(../img/div2_dir.png) no-repeat 100% bottom;
+        padding-top: 5%;
+        background-size: auto, auto, 15%, 15%;
+    }
 }
 
 @media screen and (max-width:820px) {
@@ -172,23 +327,29 @@
     }
 
     .bloco1 {
-        background-size: 168%;
+        background-size: 184%;
     }
 
     .img-div {
-        margin-top: 8.5%;
+        margin-top: -3.5%;
     }
 
     .img-backup {
         margin-top: 16%;
     }
 
-
+    .img-encerramento {
+        margin-top: 54%;
+    }
 }
 
 @media screen and (max-width:768px) {
     .img-backup {
         margin-top: unset;
+    }
+
+    .img-encerramento {
+        margin-top: 39%;
     }
 }
 
@@ -216,16 +377,37 @@
     }
 
     .bloco3 {
-        background-color: #4d0053;
+        background: #4d0053;
         margin-top: -0.2%;
         padding-top: 21%;
     }
 
+    .bloco1 {
+        background: url('../img/bg1.png') no-repeat;
+    }
+
+    .img-div {
+        margin-top: -0.5%;
+    }
+
+    .img-encerramento {
+        margin-top: 3%;
+    }
+
+    .paginas {
+        overflow-x: unset !important;
+    }
+
+    .grafismo::after {
+        right: -9px;
+    }
 }
+
+
 
 @media screen and (max-width:414px) {
     .bloco1 {
-        background-size: 408%;
+        background-size: 475%;
         padding-bottom: 10%;
     }
 }
@@ -234,7 +416,12 @@
 
 @media screen and (max-width:375px) {
     .bloco1 {
-        background-size: 485%;
+        background-size: 591%;
         padding-bottom: 10%;
     }
+
+    .img-div {
+        margin-top: -0.5%;
+    }
+
 }
