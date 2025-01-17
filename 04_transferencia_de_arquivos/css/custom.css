@@ -1,0 +1,49 @@
+.transferencia{
+    border: 3px solid #42b8cf;
+    padding: 4%;
+    -webkit-box-shadow: 10px 10px 0px 10px rgba(66,184,207,1);
+    -moz-box-shadow: 10px 10px 0px 10px rgba(66,184,207,1);
+    box-shadow: 12px 12px 0px 0px rgba(66,184,207,1);
+}
+
+ tr, td{
+    border: 3px solid #b4bfce;
+}
+
+
+thead {
+    background-image: linear-gradient(
+      90deg,
+      hsl(215deg 21% 76%) 0%,
+      hsl(230deg 17% 73%) 7%,
+      hsl(248deg 15% 69%) 14%,
+      hsl(261deg 15% 65%) 21%,
+      hsl(271deg 15% 61%) 29%,
+      hsl(278deg 16% 56%) 36%,
+      hsl(284deg 16% 52%) 43%,
+      hsl(288deg 17% 48%) 50%,
+      hsl(292deg 21% 44%) 57%,
+      hsl(294deg 25% 40%) 64%,
+      hsl(296deg 30% 36%) 71%,
+      hsl(298deg 37% 31%) 79%,
+      hsl(299deg 47% 27%) 86%,
+      hsl(300deg 62% 22%) 93%,
+      hsl(300deg 100% 17%) 100%
+    );
+  }
+
+  thead th:first-child{
+    width: 25%;
+  }
+
+  tr td:last-child{
+    padding: 30px;
+  }
+
+  td > b {
+    font-size: 16px;
+  }
+
+  .bg-escuro .accordion-body p{
+    color: black;
+  }
