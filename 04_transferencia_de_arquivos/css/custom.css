@@ -1,3 +1,12 @@
+#booklet {
+  background: url(../assets/BG1.png),
+              url(../assets/BG2.jpg);
+  background-repeat: no-repeat, repeat-y;
+  background-size: 100%, 100%;
+  padding-top: 150px;
+}
+
+
 .transferencia{
     border: 3px solid #42b8cf;
     padding: 4%;
@@ -47,3 +56,15 @@ thead {
   .bg-escuro .accordion-body p{
     color: black;
   }
+
+  @media screen and (max-width:1440px) {
+
+    #booklet {
+      background: none,
+                  url(../assets/BG2.jpg);
+      background-repeat: unset, repeat-y;
+      background-size: unset, 100%;
+      padding-top: 150px;
+    }
+    
+}

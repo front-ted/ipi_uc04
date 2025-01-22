@@ -143,3 +143,58 @@ body{
     background: url('../assets/ico_chrome.png') no-repeat top,
                 url('../assets/ico_edge.png') no-repeat bottom; 
 }
+
+@media screen and (max-width:1600px) {
+
+    body{
+
+        background: url('../assets/bg_elem1.png') left top,
+                    url('../assets/bg_elem2.png') right 20%,
+                    url('../assets/bg_elem3.png') left 45%,
+                    url('../assets/bg_elem4.png') right 62%,
+                    url('../assets/bg_elem5.png') left 82%,
+                    url('../assets/bg1_esq.jpg') left top,
+                    url('../assets/bg1_dir.jpg') right top;
+        background-repeat:  no-repeat, 
+                            no-repeat,
+                            no-repeat,
+                            no-repeat,
+                            no-repeat,
+                            repeat-y, 
+                            repeat-y;
+        background-size: 20%;
+    }
+    
+}
+
+@media screen and (max-width:1350px) {
+
+    body{
+
+        background: url('../assets/bg_elem1.png') left top,
+                    url('../assets/bg_elem2.png') right 20%,
+                    url('../assets/bg_elem3.png') left 45%,
+                    url('../assets/bg_elem4.png') right 62%,
+                    url('../assets/bg_elem5.png') left 82%,
+                    url('../assets/bg1_esq.jpg') left top,
+                    url('../assets/bg1_dir.jpg') right top;
+        background-repeat:  no-repeat, 
+                            no-repeat,
+                            no-repeat,
+                            no-repeat,
+                            no-repeat,
+                            repeat-y, 
+                            repeat-y;
+        background-size: 15%;
+    }
+    
+}
+
+@media screen and (max-width:1100px) {
+
+    body{
+
+        background: none;
+    }
+    
+}
