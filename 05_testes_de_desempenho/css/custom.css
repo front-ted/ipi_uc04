@@ -1,12 +1,12 @@
 body{
 
-    background: url('../assets/bg_elem1.png') left top,
-                url('../assets/bg_elem2.png') right 20%,
-                url('../assets/bg_elem3.png') left 45%,
-                url('../assets/bg_elem4.png') right 62%,
-                url('../assets/bg_elem5.png') left 82%,
-                url('../assets/bg1_esq.jpg') left top,
-                url('../assets/bg1_dir.jpg') right top;
+    background: url('../img/bg_elem1.png') left top,
+                url('../img/bg_elem2.png') right 20%,
+                url('../img/bg_elem3.png') left 45%,
+                url('../img/bg_elem4.png') right 62%,
+                url('../img/bg_elem5.png') left 82%,
+                url('../img/bg1_esq.jpg') left top,
+                url('../img/bg1_dir.jpg') right top;
     background-repeat:  no-repeat, 
                         no-repeat,
                         no-repeat,
@@ -34,27 +34,27 @@ body{
 }
 
 .btn-carregamento{
-    background: url(../assets/bt1.png);
+    background: url(../img/bt1.png);
 }
 
 .btn-carregamento:hover{
-    background: url(../assets/bt1_hv.png);
+    background: url(../img/bt1_hv.png);
 }
 
 .btn-resposta{
-    background: url(../assets/bt2.png);
+    background: url(../img/bt2.png);
 }
 
 .btn-resposta:hover{
-    background: url(../assets/bt2_hv.png);
+    background: url(../img/bt2_hv.png);
 }
 
 .btn-estabilidade{
-    background: url(../assets/bt3.png);
+    background: url(../img/bt3.png);
 }
 
 .btn-estabilidade:hover{
-    background: url(../assets/bt3_hv.png);
+    background: url(../img/bt3_hv.png);
 }
 
 .destaque.dest1::before {
@@ -68,7 +68,7 @@ body{
     top: 0;
     margin: auto;
     border-radius: 20px;
-    background: url('../assets/dest1.png') no-repeat;
+    background: url('../img/dest1.png') no-repeat;
 }
 
 .destaque.dest2::before {
@@ -82,7 +82,7 @@ body{
     top: 0;
     margin: auto;
     border-radius: 20px;
-    background: url('../assets/dest2.png') no-repeat;
+    background: url('../img/dest2.png') no-repeat;
     background-repeat: no-repeat;
 }
 
@@ -106,55 +106,55 @@ body{
 }
 
 .btn1::before{
-    background: url(../assets/ico1.png);
+    background: url(../img/ico1.png);
 }
 
 .btn2::before{
-    background: url(../assets/ico2.png);
+    background: url(../img/ico2.png);
 }
 
 .btn3::before{
-    background: url(../assets/ico3.png);
+    background: url(../img/ico3.png);
 }
 
 .btn4::before{
-    background: url(../assets/ico4.png);
+    background: url(../img/ico4.png);
 }
 
 .btn5::before{
-    background: url(../assets/ico5.png);
+    background: url(../img/ico5.png);
 }
 
 .destaque.icone.safari::before {
     height: 115px;
     width: 115px;
-    background: url('../assets/ico_safari.png') no-repeat;
+    background: url('../img/ico_safari.png') no-repeat;
 }
 
 .destaque.icone.firefox::before {
     height: 115px;
     width: 115px;
-    background: url('../assets/ico_firefox.png') no-repeat;
+    background: url('../img/ico_firefox.png') no-repeat;
 }
 
 .destaque.icone.chrome::before {
     height: 190px;
     width: 115px;
-    background: url('../assets/ico_chrome.png') no-repeat top,
-                url('../assets/ico_edge.png') no-repeat bottom; 
+    background: url('../img/ico_chrome.png') no-repeat top,
+                url('../img/ico_edge.png') no-repeat bottom; 
 }
 
 @media screen and (max-width:1600px) {
 
     body{
 
-        background: url('../assets/bg_elem1.png') left top,
-                    url('../assets/bg_elem2.png') right 20%,
-                    url('../assets/bg_elem3.png') left 45%,
-                    url('../assets/bg_elem4.png') right 62%,
-                    url('../assets/bg_elem5.png') left 82%,
-                    url('../assets/bg1_esq.jpg') left top,
-                    url('../assets/bg1_dir.jpg') right top;
+        background: url('../img/bg_elem1.png') left top,
+                    url('../img/bg_elem2.png') right 20%,
+                    url('../img/bg_elem3.png') left 45%,
+                    url('../img/bg_elem4.png') right 62%,
+                    url('../img/bg_elem5.png') left 82%,
+                    url('../img/bg1_esq.jpg') left top,
+                    url('../img/bg1_dir.jpg') right top;
         background-repeat:  no-repeat, 
                             no-repeat,
                             no-repeat,
@@ -171,13 +171,13 @@ body{
 
     body{
 
-        background: url('../assets/bg_elem1.png') left top,
-                    url('../assets/bg_elem2.png') right 20%,
-                    url('../assets/bg_elem3.png') left 45%,
-                    url('../assets/bg_elem4.png') right 62%,
-                    url('../assets/bg_elem5.png') left 82%,
-                    url('../assets/bg1_esq.jpg') left top,
-                    url('../assets/bg1_dir.jpg') right top;
+        background: url('../img/bg_elem1.png') left top,
+                    url('../img/bg_elem2.png') right 20%,
+                    url('../img/bg_elem3.png') left 45%,
+                    url('../img/bg_elem4.png') right 62%,
+                    url('../img/bg_elem5.png') left 82%,
+                    url('../img/bg1_esq.jpg') left top,
+                    url('../img/bg1_dir.jpg') right top;
         background-repeat:  no-repeat, 
                             no-repeat,
                             no-repeat,

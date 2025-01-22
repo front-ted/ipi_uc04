@@ -1,6 +1,6 @@
 #booklet {
-  background: url(../assets/BG1.png),
-              url(../assets/BG2.jpg);
+  background: url(../img/BG1.png),
+              url(../img/BG2.jpg);
   background-repeat: no-repeat, repeat-y;
   background-size: 100%, 100%;
   padding-top: 150px;
@@ -61,7 +61,7 @@ thead {
 
     #booklet {
       background: none,
-                  url(../assets/BG2.jpg);
+                  url(../img/BG2.jpg);
       background-repeat: unset, repeat-y;
       background-size: unset, 100%;
       padding-top: 150px;
