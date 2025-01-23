@@ -35,8 +35,9 @@
 }
 
 .bloco2{
-    background: url('../img/bg2.jpg') repeat;
+    background: url('../img/bg2.jpg') no-repeat;
     background-size: 100%;
+    background-attachment: fixed;
 }
 
 .bloco3{
@@ -171,6 +172,13 @@
         position: relative;
         padding-bottom: 5%;
         margin-bottom: -15%;
+    }
+    .paragrafo-mob{
+        margin-top: 7%;
+    }
+
+    .img-mob{
+        width: 50%;
     }
 }
 
