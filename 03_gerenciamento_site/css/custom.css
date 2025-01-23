@@ -389,3 +389,15 @@ body {
     }
 
 }
+
+@media screen and (max-width:320px) {
+    .bloco1 {
+        background-size: 681%;
+        padding-bottom: 10%;
+    }
+
+    .img-div {
+        margin-top: -0.5%;
+    }
+
+}
