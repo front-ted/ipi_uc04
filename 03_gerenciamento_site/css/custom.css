@@ -116,15 +116,20 @@
 body {
     overflow-x: hidden !important;
 }
+
 .accordion-body {
- margin-left: unset; 
- border-left-width: unset; 
- border-left-style: unset; 
+    margin-left: unset;
+    border-left-width: unset;
+    border-left-style: unset;
 }
 
+.accordion-header {
+    margin-right: -2%;
+}
 
-
-
+.accordion-item h2 {
+    margin-left: -2%;
+}
 
 
 
@@ -250,7 +255,10 @@ body {
     }
 
     .bloco3 {
-        background: #4d0053;
+        background: url(../img/div3_esq.png) no-repeat 0% 100.1%,
+            url(../img/div3_dir.png) no-repeat 100% 100.1%,
+            #4d0053;
+        background-size: 10%, 10%;
     }
 
     .img-divisa {
@@ -274,11 +282,34 @@ body {
         padding-top: 5%;
         background-size: auto, auto, 15%, 15%;
     }
+
+    .accordion-collapse {
+        background-color: #fff;
+        margin-top: -4%;
+        padding-top: 4%;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    .accordion-item {
+        background-color: unset;
+    }
+
+    .accordion-header {
+        margin-right: unset;
+    }
+
+    .accordion-item h2 {
+        margin-left: unset;
+    }
+
+
 }
 
 @media screen and (max-width:820px) {
     .img-divisa {
-        display: none !important;
+        width: 70%;
+        margin-bottom: 8%;
     }
 
     .bloco1 {
@@ -340,12 +371,6 @@ body {
         margin-top: unset;
     }
 
-    .bloco3 {
-        background: #4d0053;
-        margin-top: -0.2%;
-        padding-top: 21%;
-    }
-
     .bloco1 {
         background: url('../img/bg1.png') no-repeat;
     }
@@ -364,6 +389,32 @@ body {
 
     .grafismo::after {
         right: -9px;
+    }
+
+    .accordion-collapse {
+        background-color: #fff;
+        margin-top: -4%;
+        padding-top: 4%;
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+
+    .accordion-item {
+        background-color: unset;
+    }
+
+    .accordion-header {
+        margin-right: unset;
+    }
+
+    .destaque {
+        border-radius: 25px;
+        margin: 28px 0px 85px 0px;
+    }
+
+    .bloco3 {
+        background: url(../img/div3_esq.png) no-repeat 0% 100.1%, url(../img/div3_dir.png) no-repeat 100% 100.1%, #4d0053;
+        background-size: 17%, 17%;
     }
 }
 
