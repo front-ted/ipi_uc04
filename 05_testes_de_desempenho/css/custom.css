@@ -1,27 +1,28 @@
-body{
+body {
 
     background: url('../img/bg_elem1.png') left top,
-                url('../img/bg_elem2.png') right 20%,
-                url('../img/bg_elem3.png') left 45%,
-                url('../img/bg_elem4.png') right 62%,
-                url('../img/bg_elem5.png') left 82%,
-                url('../img/bg1_esq.jpg') left top,
-                url('../img/bg1_dir.jpg') right top;
-    background-repeat:  no-repeat, 
-                        no-repeat,
-                        no-repeat,
-                        no-repeat,
-                        no-repeat,
-                        repeat-y, 
-                        repeat-y;
+        url('../img/bg_elem2.png') right 20%,
+        url('../img/bg_elem3.png') left 45%,
+        url('../img/bg_elem4.png') right 62%,
+        url('../img/bg_elem5.png') left 82%,
+        url('../img/bg1_esq.jpg') left top,
+        url('../img/bg1_dir.jpg') right top;
+    background-repeat: no-repeat,
+        no-repeat,
+        no-repeat,
+        no-repeat,
+        no-repeat,
+        repeat-y,
+        repeat-y;
 }
 
-.painelIndicadores{
+.painelIndicadores {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
-.btn-painelIndicadores{
+.btn-painelIndicadores {
     border: none;
     background-color: transparent;
     color: transparent;
@@ -29,31 +30,31 @@ body{
     height: 315px;
 }
 
-.btn-painelIndicadores:hover{
-    transition: 0.5s ease-in-out ;
+.btn-painelIndicadores:hover {
+    transition: 0.5s ease-in-out;
 }
 
-.btn-carregamento{
+.btn-carregamento {
     background: url(../img/bt1.png);
 }
 
-.btn-carregamento:hover{
+.btn-carregamento:hover {
     background: url(../img/bt1_hv.png);
 }
 
-.btn-resposta{
+.btn-resposta {
     background: url(../img/bt2.png);
 }
 
-.btn-resposta:hover{
+.btn-resposta:hover {
     background: url(../img/bt2_hv.png);
 }
 
-.btn-estabilidade{
+.btn-estabilidade {
     background: url(../img/bt3.png);
 }
 
-.btn-estabilidade:hover{
+.btn-estabilidade:hover {
     background: url(../img/bt3_hv.png);
 }
 
@@ -86,13 +87,13 @@ body{
     background-repeat: no-repeat;
 }
 
-#accordionIntegridade .accordion-header > button{
+#accordionIntegridade .accordion-header>button {
     height: 80px;
     border-radius: 40px !important;
     padding-left: 100px;
 }
 
-#accordionIntegridade .accordion-header > button:before {
+#accordionIntegridade .accordion-header>button:before {
     content: '';
     display: block;
     height: 74px;
@@ -105,23 +106,23 @@ body{
     border-radius: 50px;
 }
 
-.btn1::before{
+.btn1::before {
     background: url(../img/ico1.png);
 }
 
-.btn2::before{
+.btn2::before {
     background: url(../img/ico2.png);
 }
 
-.btn3::before{
+.btn3::before {
     background: url(../img/ico3.png);
 }
 
-.btn4::before{
+.btn4::before {
     background: url(../img/ico4.png);
 }
 
-.btn5::before{
+.btn5::before {
     background: url(../img/ico5.png);
 }
 
@@ -141,60 +142,176 @@ body{
     height: 190px;
     width: 115px;
     background: url('../img/ico_chrome.png') no-repeat top,
-                url('../img/ico_edge.png') no-repeat bottom; 
+        url('../img/ico_edge.png') no-repeat bottom;
+}
+
+.dest1 {
+    margin-left: 18%;
+}
+
+.dest2 {
+    margin-right: 18%;
 }
 
 @media screen and (max-width:1600px) {
 
-    body{
+    body {
 
         background: url('../img/bg_elem1.png') left top,
-                    url('../img/bg_elem2.png') right 20%,
-                    url('../img/bg_elem3.png') left 45%,
-                    url('../img/bg_elem4.png') right 62%,
-                    url('../img/bg_elem5.png') left 82%,
-                    url('../img/bg1_esq.jpg') left top,
-                    url('../img/bg1_dir.jpg') right top;
-        background-repeat:  no-repeat, 
-                            no-repeat,
-                            no-repeat,
-                            no-repeat,
-                            no-repeat,
-                            repeat-y, 
-                            repeat-y;
+            url('../img/bg_elem2.png') right 20%,
+            url('../img/bg_elem3.png') left 45%,
+            url('../img/bg_elem4.png') right 62%,
+            url('../img/bg_elem5.png') left 82%,
+            url('../img/bg1_esq.jpg') left top,
+            url('../img/bg1_dir.jpg') right top;
+        background-repeat: no-repeat,
+            no-repeat,
+            no-repeat,
+            no-repeat,
+            no-repeat,
+            repeat-y,
+            repeat-y;
         background-size: 20%;
     }
-    
+
 }
 
 @media screen and (max-width:1350px) {
 
-    body{
+    body {
 
         background: url('../img/bg_elem1.png') left top,
-                    url('../img/bg_elem2.png') right 20%,
-                    url('../img/bg_elem3.png') left 45%,
-                    url('../img/bg_elem4.png') right 62%,
-                    url('../img/bg_elem5.png') left 82%,
-                    url('../img/bg1_esq.jpg') left top,
-                    url('../img/bg1_dir.jpg') right top;
-        background-repeat:  no-repeat, 
-                            no-repeat,
-                            no-repeat,
-                            no-repeat,
-                            no-repeat,
-                            repeat-y, 
-                            repeat-y;
+            url('../img/bg_elem2.png') right 20%,
+            url('../img/bg_elem3.png') left 45%,
+            url('../img/bg_elem4.png') right 62%,
+            url('../img/bg_elem5.png') left 82%,
+            url('../img/bg1_esq.jpg') left top,
+            url('../img/bg1_dir.jpg') right top;
+        background-repeat: no-repeat,
+            no-repeat,
+            no-repeat,
+            no-repeat,
+            no-repeat,
+            repeat-y,
+            repeat-y;
         background-size: 15%;
     }
-    
+
 }
 
 @media screen and (max-width:1100px) {
 
-    body{
+    body {
 
         background: none;
     }
-    
+
+}
+
+
+@media screen and (max-width:768px) {
+    .destaque.icone.chrome::before {
+        height: 115px;
+        width: 300px;
+        background: url('../img/chrome_edge.png') no-repeat top;
+        background-size: 100%;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:500px) {
+
+    .destaque.dest1::before {
+        content: '';
+        display: block;
+        height: 305px;
+        width: 306px;
+        position: absolute;
+        bottom: unset;
+        left: 8%;
+        top: -39%;
+        margin: auto;
+        border-radius: 20px;
+        background: url(../img/dest1.png) no-repeat;
+    }
+
+    .destaque.dest2::before {
+        content: '';
+        display: block;
+        height: 305px;
+        width: 305px;
+        position: absolute;
+        bottom: 75%;
+        right: 10%;
+        top: -62%;
+        margin: auto;
+        border-radius: 20px;
+        background: url(../img/dest2.png) no-repeat;
+        background-repeat: no-repeat;
+    }
+
+    .dest1 {
+        margin-left: unset;
+        margin-top: 80%;
+    }
+
+    .dest2 {
+        margin-right: unset;
+        margin-top: 80% !important;
+    }
+
+}
+
+
+
+@media screen and (max-width:375px) {
+    .destaque.dest1::before {
+        content: '';
+        display: block;
+        height: 305px;
+        width: 306px;
+        position: absolute;
+        bottom: unset;
+        left: 2%;
+        top: -34%;
+        margin: auto;
+        border-radius: 20px;
+        background: url(../img/dest1.png) no-repeat;
+    }
+
+    .destaque.dest2::before {
+        content: '';
+        display: block;
+        height: 305px;
+        width: 305px;
+        position: absolute;
+        bottom: 75%;
+        right: 0%;
+        top: -55%;
+        margin: auto;
+        border-radius: 20px;
+        background: url(../img/dest2.png) no-repeat;
+        background-repeat: no-repeat;
+    }
+
+    .dest1 {
+        margin-left: unset;
+        margin-top: 92%;
+    }
+
+
+    .dest2 {
+        margin-right: unset;
+        margin-top: 97% !important;
+    }
+
 }
