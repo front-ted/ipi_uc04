@@ -152,6 +152,21 @@ body {
 .dest2 {
     margin-right: 18%;
 }
+.bg-escuro .accordion-body p {
+    color: #000;
+}
+
+.bg-escuro .modal-body p {
+    color: #000;
+}
+
+.bg-escuro .modal-body li {
+    color: #000;
+}
+
+.bg-escuro .modal-body * {
+    color: #000;
+}
 
 @media screen and (max-width:1600px) {
 
