@@ -55,109 +55,162 @@
             <div class="pagina">
                 <div class="bloco1">
                     <div class="container">
-
                         <h2>Transferência de arquivos: hospedagem via FTP e <i>upload</i> no servidor</h2>
-
-                        <p>A publicação de uma aplicação <i>web</i> é o passo final e essencial para disponibilizar seu conteúdo na internet, permitindo que usuários em qualquer lugar do mundo possam acessá-lo. No processo de publicação, a transferência de arquivos para o servidor é uma das etapas mais importantes, pois garante que o conteúdo esteja disponível para o público. Para tornar esse processo mais eficiente e seguro, utiliza-se um conjunto de protocolos e ferramentas que facilitam essa comunicação entre o ambiente de desenvolvimento (local) e o servidor (remoto). </p>
-
+                        <p>A publicação de uma aplicação <i>web</i> é o passo final e essencial para disponibilizar seu
+                            conteúdo na internet, permitindo que usuários em qualquer lugar do mundo possam acessá-lo.
+                            No processo de publicação, a transferência de arquivos para o servidor é uma das etapas mais
+                            importantes, pois garante que o conteúdo esteja disponível para o público. Para tornar esse
+                            processo mais eficiente e seguro, utiliza-se um conjunto de protocolos e ferramentas que
+                            facilitam essa comunicação entre o ambiente de desenvolvimento (local) e o servidor
+                            (remoto). </p>
                         <div class="row g0">
                             <div class="col-md-6 my-auto">
-                              
-                                <p>Um dos métodos mais utilizados para essa transferência é o <b>FTP</b> (<i>file transfer protocol</i>), que permite o envio e o recebimento de arquivos entre um computador e um servidor. </p>
-
-                                <p>Neste conteúdo, serão explorados a forma como o FTP funciona, suas aplicações na hospedagem de <i>sites</i> e as ferramentas mais usadas para transferir arquivos para um servidor. Você aprenderá também as melhores práticas e terá a oportunidade de colocar praticar esses conhecimentos, transferindo arquivos e publicando uma aplicação <i>web</i>.</p>
-
+                                <p>Um dos métodos mais utilizados para essa transferência é o <b>FTP</b> (<i>file
+                                        transfer protocol</i>), que permite o envio e o recebimento de arquivos entre um
+                                    computador e um servidor. </p>
+                                <p>Neste conteúdo, serão explorados a forma como o FTP funciona, suas aplicações na
+                                    hospedagem de <i>sites</i> e as ferramentas mais usadas para transferir arquivos
+                                    para um servidor. Você aprenderá também as melhores práticas e terá a oportunidade
+                                    de colocar praticar esses conhecimentos, transferindo arquivos e publicando uma
+                                    aplicação <i>web</i>.</p>
                             </div>
-                            <div class="col-md-6">
+                            <div class="col-md-6 no-print">
                                 <figure class="my-5">
                                     <div class="figure-img mb-4">
-                                        <img class="img-fluid d-block  mx-auto" src="img/img1.png">
+                                        <img class="img-fluid d-block mx-auto" src="img/img1.png">
                                     </div>
                                 </figure>
                             </div>
                         </div>
-
-                        <p>Com esses conhecimentos, você estará pronto para realizar publicações de sites e aplicações com confiança e segurança, dando um passo importante para atuar no ambiente profissional de hospedagem e manutenção de aplicações web.</p>
-
+                        <p>Com esses conhecimentos, você estará pronto para realizar publicações de sites e aplicações
+                            com confiança e segurança, dando um passo importante para atuar no ambiente profissional de
+                            hospedagem e manutenção de aplicações web.</p>
+                        <figure class="my-5 no-print">
+                            <div class="figure-img mb-4">
+                                <img class="img-fluid d-block  mx-auto" src="img/div.png">
+                            </div>
+                        </figure>
                         <div class="transferencia">
-
                             <h3>Transferência de arquivos</h3>
-
-                            <p>A publicação de um <i>website</i> não é apenas sobre a criação do conteúdo e da estrutura da página; é também sobre garantir que esses arquivos estejam disponíveis em um servidor de forma organizada e segura, para que possam ser acessados pelos visitantes. Com uma transferência eficiente e organizada, o desenvolvedor consegue atualizar, corrigir ou melhorar o <i>website</i>, sempre que necessário, mantendo a acessibilidade e funcionalidade da página para os usuários.</p>
-
-                            <figure class="my-5">
+                            <p>A publicação de um <i>website</i> não é apenas sobre a criação do conteúdo e da estrutura
+                                da página; é também sobre garantir que esses arquivos estejam disponíveis em um servidor
+                                de forma organizada e segura, para que possam ser acessados pelos visitantes. Com uma
+                                transferência eficiente e organizada, o desenvolvedor consegue atualizar, corrigir ou
+                                melhorar o <i>website</i>, sempre que necessário, mantendo a acessibilidade e
+                                funcionalidade da página para os usuários.</p>
+                            <figure class="my-5 no-print">
                                 <div class="figure-img mb-4">
-                                    <img class="img-fluid d-block  mx-auto" src="img/div.png">
+                                    <img class="img-fluid d-block  mx-auto" src="img/img2.png">
                                 </div>
                             </figure>
-
-                            <p>A transferência de arquivos é o processo de copiar ou mover arquivos de um local para outro. No contexto da publicação de <i>websites</i>, essa transferência ocorre entre o computador local, no qual o desenvolvedor trabalha, e o servidor de hospedagem, no qual os arquivos do <i>site</i> serão armazenados – também chamado de servidor remoto. Para tornar esse processo eficiente e seguro, utilizam-se protocolos de transferência de arquivos, como o <b>FTP</b>, um dos mais comuns e amplamente usados; o <b>SFTP</b> (<i>SSH file transfer protocol</i>), que adiciona uma camada de segurança criptografada baseada no SSH (<i>secure shell</i>); e o <b>FTPS</b> (<i>file transfer protocol secure</i>), que utiliza criptografia TLS/SSL (<i>transport layer security/secure sockets layer</i>) para proteger os dados durante a transferência. </p>
-
-                            <h4>FTP</h4>
-
-                            <p>O FTP é um protocolo de comunicação que permite o envio e o recebimento de arquivos entre dois sistemas conectados à rede, geralmente entre um computador local e um servidor remoto. Ele foi desenvolvido para facilitar a comunicação e a transferência de arquivos de forma prática e rápida. </p>
-
-                            <p>O FTP opera utilizando uma arquitetura cliente-servidor, em que o cliente inicia a conexão e controla as ações, enquanto o servidor responde às solicitações e realiza a transferência dos arquivos. </p>
-
-                            <p>Para se conectar a um servidor FTP, são necessários três dados principais:</p>
-
-                            <p class="no-print">Clique ou toque para visualizar o conteúdo.</p>
-
-                            <div class="accordion" id="accordionFTP">
-
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header" id="headingOne">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                                            Endereço do servidor  
-                                        </button>
-                                    </h2>
-                                    <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionFTP">
-                                        <div class="accordion-body">
-                                            <p>Endereço do servidor de hospedagem, geralmente fornecido pelo provedor de hospedagem, que identifica onde os arquivos serão enviados. </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header" id="headingTwo">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                            Nome de usuário e senha 
-                                        </button>
-                                    </h2>
-                                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionFTP">
-                                        <div class="accordion-body">
-                                            <p>Credenciais de acesso ao servidor FTP, garantindo que apenas usuários autorizados possam realizar transferências de arquivos. </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header" id="headingThree">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                            Porta de conexão  
-                                        </button>
-                                    </h2>
-                                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionFTP">
-                                        <div class="accordion-body">
-                                            <p>O FTP tradicionalmente utiliza a porta 21 para transferências-padrão.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                
-                            </div>
-
-                            <p>Uma vez conectado, o cliente pode enviar (<i>upload</i>) ou receber (<i>download</i>) arquivos do servidor, além de realizar outras operações, como renomear, mover e deletar arquivos remotamente.</p>
-
-                            
+                            <p>A transferência de arquivos é o processo de copiar ou mover arquivos de um local para
+                                outro. No contexto da publicação de <i>websites</i>, essa transferência ocorre entre o
+                                computador local, no qual o desenvolvedor trabalha, e o servidor de hospedagem, no qual
+                                os arquivos do <i>site</i> serão armazenados – também chamado de servidor remoto. Para
+                                tornar esse processo eficiente e seguro, utilizam-se protocolos de transferência de
+                                arquivos, como o <b>FTP</b>, um dos mais comuns e amplamente usados; o <b>SFTP</b>
+                                (<i>SSH file transfer protocol</i>), que adiciona uma camada de segurança criptografada
+                                baseada no SSH (<i>secure shell</i>); e o <b>FTPS</b> (<i>file transfer protocol
+                                    secure</i>), que utiliza criptografia TLS/SSL (<i>transport layer security/secure
+                                    sockets layer</i>) para proteger os dados durante a transferência.
+                            </p>
                             <div class="row g0">
                                 <div class="col-md-6 my-auto">
-
-                                    <h4>SFTP</h4>
-                                  
-                                    <p>O SFTP é uma extensão do FTP que adiciona uma camada de segurança ao processo de transferência, sendo frequentemente preferido para transferências que exigem maior proteção. Ele utiliza o protocolo SSH para criptografar os dados e proteger as credenciais e os arquivos transferidos. Dessa forma, mesmo que os dados sejam interceptados, eles estarão protegidos por criptografia. </p>
-    
+                                    <h4>FTP</h4>
+                                    <p>O FTP é um protocolo de comunicação que permite o envio e o recebimento de
+                                        arquivos entre
+                                        dois sistemas conectados à rede, geralmente entre um computador local e um
+                                        servidor
+                                        remoto. Ele foi desenvolvido para facilitar a comunicação e a transferência de
+                                        arquivos
+                                        de forma prática e rápida. </p>
+                                    <p>O FTP opera utilizando uma arquitetura cliente-servidor, em que o cliente inicia
+                                        a
+                                        conexão e controla as ações, enquanto o servidor responde às solicitações e
+                                        realiza a
+                                        transferência dos arquivos. </p>
                                 </div>
-                                <div class="col-md-6 d-flex">
+                                <div class="col-md-6 d-flex no-print">
+                                    <figure class="my-auto">
+                                        <div class="figure-img my-auto">
+                                            <img class="img-fluid d-block my-auto mx-auto" src="img/FTP.png">
+                                        </div>
+                                    </figure>
+                                </div>
+                            </div>
+                            <p>Para se conectar a um servidor FTP, são necessários três dados principais:</p>
+                            <p class="no-print">Clique ou toque para visualizar o conteúdo.</p>
+                            <div class="accordion" id="accordionFTP">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingOne">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                                            aria-expanded="false" aria-controls="collapseOne">
+                                            Endereço do servidor
+                                        </button>
+                                    </h2>
+                                    <div id="collapseOne" class="accordion-collapse collapse"
+                                        aria-labelledby="headingOne" data-bs-parent="#accordionFTP">
+                                        <div class="accordion-body">
+                                            <p>Endereço do servidor de hospedagem, geralmente fornecido pelo
+                                                provedor de
+                                                hospedagem, que identifica onde os arquivos serão enviados. </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingTwo">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                                            aria-expanded="false" aria-controls="collapseTwo">
+                                            Nome de usuário e senha
+                                        </button>
+                                    </h2>
+                                    <div id="collapseTwo" class="accordion-collapse collapse"
+                                        aria-labelledby="headingTwo" data-bs-parent="#accordionFTP">
+                                        <div class="accordion-body">
+                                            <p>Credenciais de acesso ao servidor FTP, garantindo que apenas
+                                                usuários
+                                                autorizados possam realizar transferências de arquivos. </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingThree">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseThree"
+                                            aria-expanded="false" aria-controls="collapseThree">
+                                            Porta de conexão
+                                        </button>
+                                    </h2>
+                                    <div id="collapseThree" class="accordion-collapse collapse"
+                                        aria-labelledby="headingThree" data-bs-parent="#accordionFTP">
+                                        <div class="accordion-body">
+                                            <p>O FTP tradicionalmente utiliza a porta 21 para
+                                                transferências-padrão.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <p>Uma vez conectado, o cliente pode enviar (<i>upload</i>) ou receber
+                                (<i>download</i>)
+                                arquivos do servidor, além de realizar outras operações, como renomear, mover e
+                                deletar
+                                arquivos remotamente.</p>
+                            <div class="row g0">
+                                <div class="col-md-6 my-auto">
+                                    <h4>SFTP</h4>
+                                    <p>O SFTP é uma extensão do FTP que adiciona uma camada de segurança ao
+                                        processo de
+                                        transferência, sendo frequentemente preferido para transferências que
+                                        exigem
+                                        maior proteção. Ele utiliza o protocolo SSH para criptografar os dados e
+                                        proteger as credenciais e os arquivos transferidos. Dessa forma, mesmo
+                                        que os
+                                        dados sejam interceptados, eles estarão protegidos por criptografia.
+                                    </p>
+                                </div>
+                                <div class="col-md-6 d-flex no-print">
                                     <figure class="my-auto">
                                         <div class="figure-img my-auto">
                                             <img class="img-fluid d-block my-auto mx-auto" src="img/SFTP.png">
@@ -165,16 +218,21 @@
                                     </figure>
                                 </div>
                             </div>
-
                             <div class="row g0">
                                 <div class="col-md-6 my-auto">
-
                                     <h4>FTPS</h4>
-                                  
-                                    <p>O FTPS é outra versão segura do FTP, que implementa criptografia por meio dos protocolos SSL ou TLS, os mesmos utilizados em <i>sites</i> seguros – HTTPS (<i>hypertext transfer protocol secure</i>). Diferentemente do SFTP, que utiliza o SSH, o FTPS adiciona segurança ao FTP tradicional ao criptografar a conexão, protegendo os dados e as credenciais transmitidas.</p>
-    
+                                    <p>O FTPS é outra versão segura do FTP, que implementa criptografia por meio
+                                        dos
+                                        protocolos SSL ou TLS, os mesmos utilizados em <i>sites</i> seguros –
+                                        HTTPS
+                                        (<i>hypertext transfer protocol secure</i>). Diferentemente do SFTP, que
+                                        utiliza
+                                        o SSH, o FTPS adiciona segurança ao FTP tradicional ao criptografar a
+                                        conexão,
+                                        protegendo os dados e as credenciais transmitidas.</p>
+
                                 </div>
-                                <div class="col-md-6 d-flex">
+                                <div class="col-md-6 d-flex mb-4 no-print">
                                     <figure class="my-auto">
                                         <div class="figure-img my-auto">
                                             <img class="img-fluid d-block my-auto mx-auto" src="img/FTPS.png">
@@ -182,93 +240,213 @@
                                     </figure>
                                 </div>
                             </div>
+                            <p>Para usar o FTPS, normalmente é necessário que o servidor e o cliente suportem
+                                SSL/TLS.
+                                Assim como o FTP, o FTPS utiliza a porta 21, mas pode requerer portas adicionais
+                                para
+                                transferência de dados segura. </p>
 
-                            <p>Para usar o FTPS, normalmente é necessário que o servidor e o cliente suportem SSL/TLS. Assim como o FTP, o FTPS utiliza a porta 21, mas pode requerer portas adicionais para transferência de dados segura. </p>
+                            <p>Além de protocolos, utilizam-se programas específicos que simplificam e
+                                automatizam esse
+                                processo de transferência de arquivos. Um exemplo popular é o <b>FileZilla</b>,
+                                uma
+                                ferramenta gratuita e de código aberto que atua como cliente FTP.</p>
 
-                            <p>Além de protocolos, utilizam-se programas específicos que simplificam e automatizam esse processo de transferência de arquivos. Um exemplo popular é o <b>FileZilla</b>, uma ferramenta gratuita e de código aberto que atua como cliente FTP.</p>
-
-                            <figure class="my-5">
+                            <figure class="my-5 no-print">
                                 <div class="figure-img mx-auto mb-4">
                                     <img class="img-fluid d-block mx-auto" src="img/img3.png">
                                 </div>
                             </figure>
+                            <p>Para usar o FTPS, normalmente é necessário que o servidor e o cliente suportem
+                                SSL/TLS.
+                                Assim como o FTP, o FTPS utiliza a porta 21, mas pode requerer portas adicionais
+                                para
+                                transferência de dados segura. </p>
 
-                            <p>Para usar o FTPS, normalmente é necessário que o servidor e o cliente suportem SSL/TLS. Assim como o FTP, o FTPS utiliza a porta 21, mas pode requerer portas adicionais para transferência de dados segura. </p>
-
-                            <p>Além de protocolos, utilizam-se programas específicos que simplificam e automatizam esse processo de transferência de arquivos. Um exemplo popular é o <b>FileZilla</b>, uma ferramenta gratuita e de código aberto que atua como cliente FTP.</p>
+                            <p>Além de protocolos, utilizam-se programas específicos que simplificam e
+                                automatizam esse
+                                processo de transferência de arquivos. Um exemplo popular é o <b>FileZilla</b>,
+                                uma
+                                ferramenta gratuita e de código aberto que atua como cliente FTP.</p>
 
                             <h3>FileZilla</h3>
 
-                            <p>O FileZilla é uma aplicação gratuita e de código aberto que atua como cliente FTP, permitindo a transferência de arquivos entre o computador local e os servidores remotos. Reconhecido por sua interface intuitiva e seus recursos robustos, o FileZilla é amplamente utilizado por desenvolvedores <i>web</i> e administradores de sistemas para gerenciar, organizar e publicar <i>sites</i> e aplicações na internet. </p>
+                            <p>O FileZilla é uma aplicação gratuita e de código aberto que atua como cliente
+                                FTP,
+                                permitindo a transferência de arquivos entre o computador local e os servidores
+                                remotos.
+                                Reconhecido por sua interface intuitiva e seus recursos robustos, o FileZilla é
+                                amplamente utilizado por desenvolvedores <i>web</i> e administradores de
+                                sistemas para
+                                gerenciar, organizar e publicar <i>sites</i> e aplicações na internet. </p>
 
-                            <p>Além do FTP tradicional, ele suporta também o SFTP, que utiliza criptografia SSH, e o FTPS, que utiliza criptografia SSL/TLS. Essas opções tornam o FileZilla uma escolha versátil e segura para lidar com diferentes necessidades de publicação e gerenciamento de arquivos em servidores. </p>
-
+                            <p>Além do FTP tradicional, ele suporta também o SFTP, que utiliza criptografia SSH,
+                                e o
+                                FTPS, que utiliza criptografia SSL/TLS. Essas opções tornam o FileZilla uma
+                                escolha
+                                versátil e segura para lidar com diferentes necessidades de publicação e
+                                gerenciamento
+                                de arquivos em servidores. </p>
                             <h4>Instalação</h4>
-
-                            <p>Para começar a utilizar o FileZilla, é necessário fazer o <i>download</i> e instalar o <i>software</i> em seu computador. O processo é simples e rápido: </p>
-
+                            <p>Para começar a utilizar o FileZilla, é necessário fazer o <i>download</i> e
+                                instalar o
+                                <i>software</i> em seu computador. O processo é simples e rápido:
+                            </p>
                             <ol>
                                 <li>
-                                    <p><b>Faça o <i>download</i></b>: acesse o <i>site</i> oficial do FileZilla e faça o <i>download</i> da versão mais recente. Certifique-se de baixar a versão “FileZilla Client”, pois há também uma versão “FileZilla Server”, destinada à configuração de servidores FTP.</p> 
-
-                                    <p class="no-print">Observe o GIF demonstrando o processo de <i>download</i> (FileZilla, [s. d.]): </p>
-
+                                    <p><b>Faça o <i>download</i></b>: acesse o <i>site</i> oficial do FileZilla
+                                        e faça o
+                                        <i>download</i> da versão mais recente. Certifique-se de baixar a versão
+                                        “FileZilla Client”, pois há também uma versão “FileZilla Server”,
+                                        destinada à
+                                        configuração de servidores FTP.
+                                    </p>
+                                    <p class="no-print">Observe o GIF demonstrando o processo de <i>download</i>
+                                        (FileZilla, [s. d.]): </p>
                                     <figure class="my-5">
-                                        <div class="figure-img mx-auto mb-4">
-                                            <img class="img-fluid d-block mx-auto shadow radius" src="img/01.gif">
-                                        </div>
+                                        <img src="img/01.gif"
+                                            class="img-fluid d-block mx-auto mb-3 d-none d-sm-none d-md-block d-lg-block shadow radius print"
+                                            alt="Imagem">
+                                        <a href="img/01.gif" target="_blank"
+                                            class="img-zoom d-sm-block d-md-none d-lg-none no-print">
+                                            <img src="img/01.gif"
+                                                class="img-fluid d-block mx-auto mb-3 d-sm-block d-md-none d-lg-none shadow radius"
+                                                alt="Imagem">
+                                        </a>
                                     </figure>
-
-                                    <p class="no-print visually-hidden acessivel">No GIF, há o site oficial do FileZilla aberto em um navegador de internet na tela inicial. O mouse se posiciona sobre o botão Download FileZiila Client e leva a uma nova tela. Nessa tela, o mouse se posiciona sobre o botão verde Download FileZilla Client localizado abaixo do texto “Windows (64bit x86)” e clica nele. Uma janela flutuante aparece sobre a tela com o texto “FileZilla Client: Select your edition” e uma tabela comparando os recursos entre “FileZilla (Free)”, “FileZilla + Manual”, “FileZilla Pro”, “FileZilla Pro + CLI” e no rodapé da tabela há um botão verde para cada opção, sendo um botão Download e três botões Purchase. O mouse se posiciona sobre o botão Download de “FileZilla (Free)” e o download do instalador é iniciado. Uma nova janela flutuante aparece apresentando a mensagem “Thank you for downloading FileZilla”.</p>
+                                    <p class="no-print visually-hidden acessivel">No GIF, há o site oficial do
+                                        FileZilla
+                                        aberto em um navegador de internet na tela inicial. O mouse se posiciona
+                                        sobre o
+                                        botão Download FileZiila Client e leva a uma nova tela. Nessa tela, o
+                                        mouse se
+                                        posiciona sobre o botão verde Download FileZilla Client localizado
+                                        abaixo do
+                                        texto “Windows (64bit x86)” e clica nele. Uma janela flutuante aparece
+                                        sobre a
+                                        tela com o texto “FileZilla Client: Select your edition” e uma tabela
+                                        comparando
+                                        os recursos entre “FileZilla (Free)”, “FileZilla + Manual”, “FileZilla
+                                        Pro”,
+                                        “FileZilla Pro + CLI” e no rodapé da tabela há um botão verde para cada
+                                        opção,
+                                        sendo um botão Download e três botões Purchase. O mouse se posiciona
+                                        sobre o
+                                        botão Download de “FileZilla (Free)” e o download do instalador é
+                                        iniciado. Uma
+                                        nova janela flutuante aparece apresentando a mensagem “Thank you for
+                                        downloading
+                                        FileZilla”.</p>
                                 </li>
-
                                 <li>
-                                    
-                                    <p><b>Instale</b>: após o <i>download</i>, execute o instalador e siga as instruções na tela. A instalação permite escolher opções de configuração adicionais, como atalhos e definições de idioma. </p>
+                                    <p><b>Instale</b>: após o <i>download</i>, execute o instalador e siga as
+                                        instruções
+                                        na tela. A instalação permite escolher opções de configuração
+                                        adicionais, como
+                                        atalhos e definições de idioma. </p>
 
-                                        <div class="destaque gradiente icone atencao">
-                                            <p>O instalador do FileZilla pode apresentar propagandas para promover softwares de terceiros. Essa é uma prática comum em instaladores de softwares gratuitos para que se mantenham gratuitos. Se você não tem interesse em instalar os softwares promovidos, basta selecionar a opção Decline para recusar a instalação. </p>
-                                        </div>
-
-                                    <p class="no-print">Observe o GIF demonstrando o processo de instalação do FireZilla: </p>
-
+                                    <div class="destaque gradiente icone atencao">
+                                        <p>O instalador do FileZilla pode apresentar propagandas para promover
+                                            softwares
+                                            de terceiros. Essa é uma prática comum em instaladores de softwares
+                                            gratuitos para que se mantenham gratuitos. Se você não tem interesse
+                                            em
+                                            instalar os softwares promovidos, basta selecionar a opção Decline
+                                            para
+                                            recusar a instalação. </p>
+                                    </div>
+                                    <p class="no-print">Observe o GIF demonstrando o processo de instalação do
+                                        FireZilla: </p>
                                     <figure class="my-5">
-                                        <div class="figure-img mx-auto mb-4">
-                                            <img class="img-fluid d-block mx-auto shadow radius" src="img/02.gif">
-                                        </div>
+                                        <img src="img/02.gif"
+                                            class="img-fluid d-block mx-auto mb-3 d-none d-sm-none d-md-block d-lg-block shadow radius print"
+                                            alt="Imagem">
+                                        <a href="img/02.gif" target="_blank"
+                                            class="img-zoom d-sm-block d-md-none d-lg-none no-print">
+                                            <img src="img/02.gif"
+                                                class="img-fluid d-block mx-auto mb-3 d-sm-block d-md-none d-lg-none shadow radius"
+                                                alt="Imagem">
+                                        </a>
                                     </figure>
-
-                                    <p class="no-print visually-hidden acessivel">No GIF, há todo o processo de instalação do FileZilla no sistema operacional Windows. O GIF começa apresentando a primeira tela do instalador do FileZilla, em que se tem a tela License Agreement e o contrato da licença logo abaixo. O mouse clica na opção I Agree para concordar com os termos e leva à próxima tela. Após carregar os dados, a próxima tela é renderizada apresentando uma oferta opcional para baixar o software Kanbana. Nessa tela, o mouse seleciona a opção Decline e depois o botão Next é revelado e clicado. Na tela seguinte, tem-se Choose Installation Options, em que se pode selecionar algumas configurações de instalação. Há a opção Anyone who uses the computer (all users está selecionada e o mouse clica no botão Next. Na tela seguinte, Choose Component”, as opções já vêm pré-selecionadas, com exceção de Desktop Icon. Não é feito nenhum ajuste e o mouse clica no botão Next para seguir com a instalação. As próximas telas são para selecionar o local de instalação e o nome do atalho no menu iniciar, e em ambas as telas são mantidas as configurações padrões – o mouse clica no botão Next em cada uma. Por fim, a instalação do FileZilla acontece em uma tela de carregamento que, assim que for concluída, apresenta uma mensagem de sucesso na instalação com o texto “Completing FileZilla Client 3.68.1 Setup”. </p>
+                                    <p class="no-print visually-hidden acessivel">No GIF, há todo o processo de
+                                        instalação do FileZilla no sistema operacional Windows. O GIF começa
+                                        apresentando a primeira tela do instalador do FileZilla, em que se tem a
+                                        tela
+                                        License Agreement e o contrato da licença logo abaixo. O mouse clica na
+                                        opção I
+                                        Agree para concordar com os termos e leva à próxima tela. Após carregar
+                                        os
+                                        dados, a próxima tela é renderizada apresentando uma oferta opcional
+                                        para baixar
+                                        o software Kanbana. Nessa tela, o mouse seleciona a opção Decline e
+                                        depois o
+                                        botão Next é revelado e clicado. Na tela seguinte, tem-se Choose
+                                        Installation
+                                        Options, em que se pode selecionar algumas configurações de instalação.
+                                        Há a
+                                        opção Anyone who uses the computer (all users está selecionada e o mouse
+                                        clica
+                                        no botão Next. Na tela seguinte, Choose Component”, as opções já vêm
+                                        pré-selecionadas, com exceção de Desktop Icon. Não é feito nenhum ajuste
+                                        e o
+                                        mouse clica no botão Next para seguir com a instalação. As próximas
+                                        telas são
+                                        para selecionar o local de instalação e o nome do atalho no menu
+                                        iniciar, e em
+                                        ambas as telas são mantidas as configurações padrões – o mouse clica no
+                                        botão
+                                        Next em cada uma. Por fim, a instalação do FileZilla acontece em uma
+                                        tela de
+                                        carregamento que, assim que for concluída, apresenta uma mensagem de
+                                        sucesso na
+                                        instalação com o texto “Completing FileZilla Client 3.68.1 Setup”. </p>
 
                                 </li>
-
                                 <li>
-                                    <p><b>Abra o FileZilla</b>: após a instalação, inicie o FileZilla. A interface principal será exibida, com os painéis de navegação dos arquivos locais e do servidor, conforme você pode observar na imagem a seguir. </p>
-
+                                    <p><b>Abra o FileZilla</b>: após a instalação, inicie o FileZilla. A
+                                        interface
+                                        principal será exibida, com os painéis de navegação dos arquivos locais
+                                        e do
+                                        servidor, conforme você pode observar na imagem a seguir. </p>
                                     <figure class="my-5">
-                                        <div class="figure-img mx-auto mb-4">
-                                            <img class="img-fluid d-block radius shadow" src="img/03.png">
-                                        </div>
-                                        <figcaption class="figure-caption text-center">Tela inicial do FileZilla <br> Fonte: Senac EAD (2024) </figcaption>
+                                        <img src="img/03.png"
+                                            class="img-fluid d-block mx-auto mb-3 d-none d-sm-none d-md-block d-lg-block shadow radius print"
+                                            alt="Imagem">
+                                        <a href="img/03.png" target="_blank"
+                                            class="img-zoom d-sm-block d-md-none d-lg-none no-print">
+                                            <img src="img/03.png"
+                                                class="img-fluid d-block mx-auto mb-3 d-sm-block d-md-none d-lg-none shadow radius"
+                                                alt="Imagem">
+                                        </a>
+                                        <figcaption class="figure-caption text-center mb-3 mt-4">
+                                            Tela inicial do FileZilla
+                                            <br>
+                                            Fonte: Senac EAD (2024)
+                                        </figcaption>
                                     </figure>
-
                                     <p class="acessivel no-print visually-hidden">
-                                        Uma captura de tela mostrando a interface gráfica do FileZilla. Na parte superior, há uma barra de título com ícones e um menu suspenso. No centro, há uma divisão no meio que separa a estrutura de arquivos em árvore do computador local e do servidor remoto. Abaixo, uma tabela estruturada com várias linhas e colunas contendo informações textuais (nome, data e status).  
-                                    </p>                                      
+                                        Uma captura de tela mostrando a interface gráfica do FileZilla. Na parte
+                                        superior, há uma barra de título com ícones e um menu suspenso. No
+                                        centro, há
+                                        uma divisão no meio que separa a estrutura de arquivos em árvore do
+                                        computador
+                                        local e do servidor remoto. Abaixo, uma tabela estruturada com várias
+                                        linhas e
+                                        colunas contendo informações textuais (nome, data e status).
+                                    </p>
                                 </li>
                             </ol>
-
-                            
-
                             <div class="row g0">
                                 <div class="col-md-6 my-auto">
-
                                     <h4>Explorando a interface do FileZilla</h4>
-                                  
-                                    <p>Após concluir a instalação do FileZilla, você já pode conectá-lo a um servidor remoto para transferir arquivos. O próximo passo é se familiarizar com o <i>layout</i> de janelas do FileZilla. Para facilitar, veja a divisão da interface em seções, destacadas na figura: </p>
-    
+                                    <p>Após concluir a instalação do FileZilla, você já pode conectá-lo a um
+                                        servidor
+                                        remoto para transferir arquivos. O próximo passo é se familiarizar com o
+                                        <i>layout</i> de janelas do FileZilla. Para facilitar, veja a divisão da
+                                        interface em seções, destacadas na figura:
+                                    </p>
                                 </div>
-                                <div class="col-md-6 d-flex">
+                                <div class="col-md-6 d-flex no-print">
                                     <figure class="my-auto">
                                         <div class="figure-img my-auto">
                                             <img class="img-fluid d-block my-auto mx-auto" src="img/img4.png">
@@ -276,48 +454,107 @@
                                     </figure>
                                 </div>
                             </div>
-
-                            <figure class="my-auto">
-                                <div class="figure-img my-auto">
-                                    <img class="img-fluid d-block my-auto mx-auto shadow radius" src="img/04.png">
-                                </div>
+                            <figure class="my-5">
+                                <img src="img/04.png"
+                                    class="img-fluid d-block mx-auto mb-3 d-none d-sm-none d-md-block d-lg-block shadow radius print"
+                                    alt="Imagem">
+                                <a href="img/04.png" target="_blank"
+                                    class="img-zoom d-sm-block d-md-none d-lg-none no-print">
+                                    <img src="img/04.png"
+                                        class="img-fluid d-block mx-auto mb-3 d-sm-block d-md-none d-lg-none shadow radius"
+                                        alt="Imagem">
+                                </a>
                             </figure>
-
-                            <p class="acessivel no-print visually-hidden">Uma captura de tela mostrando a interface gráfica do FileZilla. A interface está dividida em seções, cada uma com diferentes cores com um valor numérico para referenciar cada seção de cima para baixo. A numeração vai de 1 a 6 e cada número representa uma área destacada, sendo: 1) Barra de ferramentas; 2) Barra de conexão rápida; 3) Log de mensagens; 4) Painel local; 5) Painel do servidor; 6) Fila de transferência.</p> 
-
+                            <p class="acessivel no-print visually-hidden">Uma captura de tela mostrando a
+                                interface
+                                gráfica do FileZilla. A interface está dividida em seções, cada uma com
+                                diferentes cores
+                                com um valor numérico para referenciar cada seção de cima para baixo. A
+                                numeração vai de
+                                1 a 6 e cada número representa uma área destacada, sendo: 1) Barra de
+                                ferramentas; 2)
+                                Barra de conexão rápida; 3) Log de mensagens; 4) Painel local; 5) Painel do
+                                servidor; 6)
+                                Fila de transferência.</p>
                             <p class="mt-5">Portanto, há seis seções, sendo elas, respectivamente:</p>
-
-                            <ol class="marcador-numeral">
-                                <li>Barra de ferramentas (área verde) </li>
-                                <li>Barra de conexão rápida (área vermelha) </li>
-                                <li><i>Log</i> de mensagens (área azul) </li>
-                                <li>Painel local (área verde-claro) </li>
-                                <li>Painel do servidor (área laranja) </li>
-                                <li>Fila de transferência (área roxa) </li>
-                            </ol>
-
-                            <p>No topo, há a <b>barra de ferramentas</b> (1) que serve de barra de acesso rápido para as principais opções do FileZilla. As mesmas opções podem ser acessadas pelo menu de texto acima, no qual aparecem as opções <b>Arquivo</b>, <b>Editar</b>, <b>Ver</b>, <b>Transferir</b>, <b>Servidor</b>, <b>Marcadores</b> e <b>Ajuda</b>. </p>
-
-                            <p>Abaixo da <b>barra de ferramentas</b> (1) há a <b>barra de conexão rápida</b> (2), na qual se pode informar o endereço do servidor remoto (<i>host</i>), o nome de usuário, a senha e a porta para estabelecer uma conexão com o servidor. Mais a diante, volta-se a essa barra. </p>
-
-                            <p>Abaixo da <b>barra de ferramentas</b> (1) e da <b>barra de conexão rápida</b> (2), está o <i>log</i> de <b>mensagens</b> (3), que exibe mensagens relacionadas à transferência e conexão. Quando estabelecer uma conexão com o servidor remoto, por exemplo, será informado se a conexão foi estabelecida com sucesso ou não. </p>
-
-                            <p>Abaixo, você pode encontrar as listagens de arquivos. A coluna da esquerda (<b>painel local</b>, 4) exibe os arquivos e diretórios locais, ou seja, os arquivos e as pastas do computador que você está usando o FileZilla. A coluna da direita (<b>painel do servidor</b>, 5) exibe os arquivos e diretórios no servidor ao qual você está conectado. Ambas as colunas têm uma árvore de diretórios na parte superior e uma listagem detalhada do conteúdo do diretório selecionado no momento na parte inferior. Você pode navegar facilmente em qualquer uma das árvores e listas clicando ao redor como em qualquer outro gerenciador de arquivos.  </p>
-
-                            <p>Na parte inferior da janela, está a <b>fila de transferência</b> (6), na qual são listados os arquivos a serem transferidos e os já transferidos.  </p>
-
-                            <p>Agora que você já conhece a interface do FileZilla, o próximo passo é se conectar com um servidor remoto. </p>
-
-                            
                             <div class="row g0">
                                 <div class="col-md-6 my-auto">
-                                    
-                                    <h4>Estabelecendo conexão</h4>
-                                  
-                                    <p>Para estabelecer uma conexão com um servidor, é necessário ter as credenciais fornecidas pelo serviço de hospedagem, que incluem o endereço FTP, o nome de usuário e a senha. Esses dados geralmente se encontram no painel de controle da hospedagem, e cada serviço de hospedagem pode apresentá-los de maneira diferente. </p>
-    
+                                    <ol class="marcador-numeral">
+                                        <li>Barra de ferramentas (área verde) </li>
+                                        <li>Barra de conexão rápida (área vermelha) </li>
+                                        <li><i>Log</i> de mensagens (área azul) </li>
+                                        <li>Painel local (área verde-claro) </li>
+                                        <li>Painel do servidor (área laranja) </li>
+                                        <li>Fila de transferência (área roxa) </li>
+                                    </ol>
                                 </div>
-                                <div class="col-md-6 d-flex">
+                                <div class="col-md-6 d-flex no-print mb-4">
+                                    <figure class="my-auto">
+                                        <div class="figure-img my-auto no-print">
+                                            <img class="img-fluid d-block my-auto mx-auto" src="img/img5.png">
+                                        </div>
+                                    </figure>
+                                </div>
+                            </div>
+                            <p>No topo, há a <b>barra de ferramentas</b> (1) que serve de barra de acesso rápido
+                                para as
+                                principais opções do FileZilla. As mesmas opções podem ser acessadas pelo menu
+                                de texto
+                                acima, no qual aparecem as opções <b>Arquivo</b>, <b>Editar</b>, <b>Ver</b>,
+                                <b>Transferir</b>, <b>Servidor</b>, <b>Marcadores</b> e <b>Ajuda</b>.
+                            </p>
+
+                            <p>Abaixo da <b>barra de ferramentas</b> (1) há a <b>barra de conexão rápida</b>
+                                (2), na
+                                qual se pode informar o endereço do servidor remoto (<i>host</i>), o nome de
+                                usuário, a
+                                senha e a porta para estabelecer uma conexão com o servidor. Mais a diante,
+                                volta-se a
+                                essa barra. </p>
+
+                            <p>Abaixo da <b>barra de ferramentas</b> (1) e da <b>barra de conexão rápida</b>
+                                (2), está o
+                                <i>log</i> de <b>mensagens</b> (3), que exibe mensagens relacionadas à
+                                transferência e
+                                conexão. Quando estabelecer uma conexão com o servidor remoto, por exemplo, será
+                                informado se a conexão foi estabelecida com sucesso ou não.
+                            </p>
+
+                            <p>Abaixo, você pode encontrar as listagens de arquivos. A coluna da esquerda
+                                (<b>painel
+                                    local</b>, 4) exibe os arquivos e diretórios locais, ou seja, os arquivos e
+                                as
+                                pastas do computador que você está usando o FileZilla. A coluna da direita
+                                (<b>painel do
+                                    servidor</b>, 5) exibe os arquivos e diretórios no servidor ao qual você
+                                está
+                                conectado. Ambas as colunas têm uma árvore de diretórios na parte superior e uma
+                                listagem detalhada do conteúdo do diretório selecionado no momento na parte
+                                inferior.
+                                Você pode navegar facilmente em qualquer uma das árvores e listas clicando ao
+                                redor como
+                                em qualquer outro gerenciador de arquivos. </p>
+
+                            <p>Na parte inferior da janela, está a <b>fila de transferência</b> (6), na qual são
+                                listados os arquivos a serem transferidos e os já transferidos. </p>
+
+                            <p>Agora que você já conhece a interface do FileZilla, o próximo passo é se conectar
+                                com um
+                                servidor remoto. </p>
+                            <div class="row g0">
+                                <div class="col-md-6 my-auto">
+                                    <h4>Estabelecendo conexão</h4>
+                                    <p>Para estabelecer uma conexão com um servidor, é necessário ter as
+                                        credenciais
+                                        fornecidas pelo serviço de hospedagem, que incluem o endereço FTP, o
+                                        nome de
+                                        usuário e a senha. Esses dados geralmente se encontram no painel de
+                                        controle da
+                                        hospedagem, e cada serviço de hospedagem pode apresentá-los de maneira
+                                        diferente. </p>
+
+                                </div>
+                                <div class="col-md-6 d-flex no-print mb-4">
                                     <figure class="my-auto">
                                         <div class="figure-img my-auto">
                                             <img class="img-fluid d-block my-auto mx-auto" src="img/img6.png">
@@ -325,241 +562,491 @@
                                     </figure>
                                 </div>
                             </div>
-
-                            <p>A figura exemplifica como os dados são fornecidos pela <b>KingHost</b>:  </p>
-
-                            <figure class="my-auto">
-                                <div class="figure-img my-auto">
-                                    <img class="img-fluid d-block my-auto mx-auto shadow radius" src="img/figura_05.png">
-                                </div>
-                                <figcaption class="figure-caption text-center">Exemplo de dados para conexão FTP <br> Fonte: KingHost (s. d.)  </figcaption>
-                            </figure>                              
-
-                            <p class="acessivel no-print visually-hidden">
-                                Tela do painel de controle de hospedagem da empresa KingHost, na qual se tem os botões de navegação no topo e o conteúdo logo abaixo. Os botões de navegação têm os seguintes textos, respectivamente: “Meus dados”, “Alterar senha”, “Conexões ativas”, “Políticas de IPs”, “Segurança” e “Usuários”. O conteúdo abaixo tem o seguinte texto: “Para acessar seu FTP, utilize os dados abaixo. Host FTP: ftp.seusite.kinghost.net – Usuário FTP: seusite – Caminho físico: /home/seusite – Host FTP alternativo: ftp.web1621.kinghost.net – Acesso WebFTP: http://webftp.kinghost.net/”. 
-                            </p>        
-
-                            <p class="mt-3">Alguns provedores de hospedagem também oferecem interfaces web que permitem fazer o upload de arquivos diretamente pelo navegador, que também é uma forma de transferir arquivos para um servidor remoto, embora essa opção possa ser limitada para <i>sites</i> com muitos arquivos.  </p>
-
-                            <p>Neste conteúdo, será utilizado o serviço de hospedagem gratuito oferecido pela <b>Freehostia</b>. Durante a escrita deste material, foi criada uma conta de teste com o domínio <b>senacead-test.com</b> sem qualquer custo e você pode fazer o mesmo caso o serviço de hospedagem grátis ainda esteja disponibilizado. Caso o serviço não esteja mais disponível, você pode pesquisar por outras alternativas de hospedagem gratuita. </p>
-
-                            <figure class="my-auto">
-                                <div class="figure-img my-auto">
-                                    <img class="img-fluid d-block my-auto mx-auto shadow radius" src="img/figura_06.png">
-                                </div>
-                                <figcaption class="figure-caption text-center"><i>Site</i> oficial da Freehostia <br> Fonte: Freehostia (c2024)</figcaption>
+                            <p>A figura exemplifica como os dados são fornecidos pela <b>KingHost</b>: </p>
+                            <figure class="my-5">
+                                <img src="img/figura_05.png"
+                                    class="img-fluid d-block mx-auto mb-3 d-none d-sm-none d-md-block d-lg-block shadow radius print"
+                                    alt="Imagem">
+                                <a href="img/figura_05.png" target="_blank"
+                                    class="img-zoom d-sm-block d-md-none d-lg-none no-print">
+                                    <img src="img/figura_05.png"
+                                        class="img-fluid d-block mx-auto mb-3 d-sm-block d-md-none d-lg-none shadow radius"
+                                        alt="Imagem">
+                                </a>
+                                <figcaption class="figure-caption text-center mt-4 mb-5">
+                                    Exemplo de dados para conexão FTP
+                                    <br>
+                                    Fonte: KingHost (s. d.)
+                                </figcaption>
                             </figure>
+                            <p class="acessivel no-print visually-hidden">
+                                Tela do painel de controle de hospedagem da empresa KingHost, na qual se tem os
+                                botões
+                                de navegação no topo e o conteúdo logo abaixo. Os botões de navegação têm os
+                                seguintes
+                                textos, respectivamente: “Meus dados”, “Alterar senha”, “Conexões ativas”,
+                                “Políticas de
+                                IPs”, “Segurança” e “Usuários”. O conteúdo abaixo tem o seguinte texto: “Para
+                                acessar
+                                seu FTP, utilize os dados abaixo. Host FTP: ftp.seusite.kinghost.net – Usuário
+                                FTP:
+                                seusite – Caminho físico: /home/seusite – Host FTP alternativo:
+                                ftp.web1621.kinghost.net
+                                – Acesso WebFTP: http://webftp.kinghost.net/”.
+                            </p>
+                            <p class="mt-3">Alguns provedores de hospedagem também oferecem interfaces web que
+                                permitem
+                                fazer o upload de arquivos diretamente pelo navegador, que também é uma forma de
+                                transferir arquivos para um servidor remoto, embora essa opção possa ser
+                                limitada para
+                                <i>sites</i> com muitos arquivos.
+                            </p>
+                            <p>Neste conteúdo, será utilizado o serviço de hospedagem gratuito oferecido pela
+                                <b>Freehostia</b>. Durante a escrita deste material, foi criada uma conta de
+                                teste com o
+                                domínio <b>senacead-test.com</b> sem qualquer custo e você pode fazer o mesmo
+                                caso o
+                                serviço de hospedagem grátis ainda esteja disponibilizado. Caso o serviço não
+                                esteja
+                                mais disponível, você pode pesquisar por outras alternativas de hospedagem
+                                gratuita.
+                            </p>
+                            <figure class="my-5">
+                                <img src="img/figura_06.png"
+                                    class="img-fluid d-block mx-auto mb-3 d-none d-sm-none d-md-block d-lg-block shadow radius print"
+                                    alt="Imagem">
+                                <a href="img/figura_06.png" target="_blank"
+                                    class="img-zoom d-sm-block d-md-none d-lg-none no-print">
+                                    <img src="img/figura_06.png"
+                                        class="img-fluid d-block mx-auto mb-3 d-sm-block d-md-none d-lg-none shadow radius"
+                                        alt="Imagem">
+                                </a>
+                                <figcaption class="figure-caption text-center mb-5 mt-4">
+                                    <i>Site</i> oficial da Freehostia
+                                    <br>
+                                    Fonte: Freehostia (c2024)
+                                </figcaption>
+                            </figure>
+                            <p class="acessivel no-print visually-hidden">Na imagem, a tela inicial do site
+                                https://www.freehostia.com/ com o título “Free Web Hosting: The ads-free hosting
+                                Paradise on Earth” e abaixo há duas guias, “Free Hosting Solution” e “Domain
+                                Names”. A
+                                primeira guia está selecionada e tem abaixo uma breve apresentação textual da
+                                solução de
+                                hospedagem gratuita com o botão “SIGN UP NOW FOR FREE” no final.</p>
 
-                            <p class="acessivel no-print visually-hidden">Na imagem, a tela inicial do site https://www.freehostia.com/ com o título “Free Web Hosting: The ads-free hosting Paradise on Earth” e abaixo há duas guias, “Free Hosting Solution” e “Domain Names”. A primeira guia está selecionada e tem abaixo uma breve apresentação textual da solução de hospedagem gratuita com o botão “SIGN UP NOW FOR FREE” no final.</p>
-                           
-                            <p class="mt-3">Estes são os dados de conexão que serão utilizados para estabelecer a conexão – utilize seus próprios dados para seguir com essa prática: </p>
-
+                            <p class="mt-3">Estes são os dados de conexão que serão utilizados para estabelecer
+                                a
+                                conexão – utilize seus próprios dados para seguir com essa prática: </p>
                             <div class="table-responsive radius shadow">
-                                <table class="align-middle" >
-                                  <thead>
-                                      <tr>
-                                          <th class="w-15"><b>Campo</b></th>
-                                          <th class="w-15"><b>Explicação</b></th>
-                                      </tr>
-                                  </thead>
-                                  <tbody>
+                                <table class="align-middle">
+                                    <thead>
+                                        <tr>
+                                            <th class="w-15"><b>Campo</b></th>
+                                            <th class="w-15"><b>Explicação</b></th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
 
-                                    <tr>
-                                        <td><b>Host: 162.210.102.231</b></td>
-                                        <td>Normalmente, para acessar um site na internet, configura-se o DNS (domain name system) e associa-se o endereço do site (domínio) ao IP (internet protocol) da hospedagem. No entanto, neste exemplo, não há um domínio registrado que aponte para o DNS da hospedagem. Portanto, a conexão será feita diretamente ao servidor usando o endereço IP, sem a necessidade de passar pelo DNS. </td>
-                                    </tr>
-
-                                    <tr>
-                                        <td><b>Host: 162.210.102.231</b></td>
-                                        <td>Normalmente, para acessar um <i>site</i> na internet, configura-se o <b>DNS</b> (<i>domain name system</i>) e associa-se o endereço do <i>site</i> (domínio) ao <b>IP</b> (<i>internet protocol</i>) da hospedagem. No entanto, neste exemplo, não há um domínio registrado que aponte para o DNS da hospedagem. Portanto, a conexão será feita diretamente ao servidor usando o endereço IP, sem a necessidade de passar pelo DNS. </td>
-                                    </tr>
-
-                                    <tr>
-                                        <td><b>Nome de usuário: lucfra58</b></td>
-                                        <td>Nome de usuário fornecido pela hospedagem.</td>
-                                    </tr>
-
-                                    <tr>
-                                        <td><b>Senha: 7PjU#.J3</b></td>
-                                        <td>Senha configurada no painel de controle da hospedagem. </td>
-                                    </tr>
-
-                                    <tr>
-                                        <td><b>Porta: 21</b></td>
-                                        <td>A menos que as credenciais fornecidas pelo serviço de hospedagem especifiquem uma determinada porta para usar, você pode deixar o campo <b>Porta</b> vazio e o FileZilla tentará estabelecer a conexão pela porta 21.</td>
-                                    </tr>
-                                   
-                                  </tbody>
+                                        <tr>
+                                            <td><b>Host: 162.210.102.231</b></td>
+                                            <td>Normalmente, para acessar um site na internet, configura-se o
+                                                DNS
+                                                (domain name system) e associa-se o endereço do site (domínio)
+                                                ao IP
+                                                (internet protocol) da hospedagem. No entanto, neste exemplo,
+                                                não há um
+                                                domínio registrado que aponte para o DNS da hospedagem.
+                                                Portanto, a
+                                                conexão será feita diretamente ao servidor usando o endereço IP,
+                                                sem a
+                                                necessidade de passar pelo DNS. </td>
+                                        </tr>
+                                        <tr>
+                                            <td><b>Host: 162.210.102.231</b></td>
+                                            <td>Normalmente, para acessar um <i>site</i> na internet,
+                                                configura-se o
+                                                <b>DNS</b> (<i>domain name system</i>) e associa-se o endereço
+                                                do
+                                                <i>site</i> (domínio) ao <b>IP</b> (<i>internet protocol</i>) da
+                                                hospedagem. No entanto, neste exemplo, não há um domínio
+                                                registrado que
+                                                aponte para o DNS da hospedagem. Portanto, a conexão será feita
+                                                diretamente ao servidor usando o endereço IP, sem a necessidade
+                                                de
+                                                passar pelo DNS.
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td><b>Nome de usuário: lucfra58</b></td>
+                                            <td>Nome de usuário fornecido pela hospedagem.</td>
+                                        </tr>
+                                        <tr>
+                                            <td><b>Senha: 7PjU#.J3</b></td>
+                                            <td>Senha configurada no painel de controle da hospedagem. </td>
+                                        </tr>
+                                        <tr>
+                                            <td><b>Porta: 21</b></td>
+                                            <td>A menos que as credenciais fornecidas pelo serviço de hospedagem
+                                                especifiquem uma determinada porta para usar, você pode deixar o
+                                                campo
+                                                <b>Porta</b> vazio e o FileZilla tentará estabelecer a conexão
+                                                pela
+                                                porta 21.
+                                            </td>
+                                        </tr>
+                                    </tbody>
                                 </table>
                             </div>
-                            <figcaption class="figure-caption text-center">Dados de conexão <br> Fonte: Senac EAD (2024)</figcaption>
-
-                            <p class="mt-3">Após preencher os campos, clique em <b>Conexão rápida</b> e o FileZilla tentará se conectar ao servidor – você pode acompanhar o <i>log</i> completo na área abaixo da barra de conexão rápida. Se tudo funcionar bem, você notará que a “coluna” da direita (painel do servidor) mudou para exibir uma lista de arquivos e diretórios. O nome do diretório remoto atual é listado no campo de edição no topo. Abaixo disso, você verá a árvore de diretórios remotos. Abaixo do diretório remoto, há uma lista do conteúdo do diretório remoto atual. </p>
-                              
-                            <p class="no-print">Veja o GIF demonstrando como estabelecer uma conexão rápida com o FileZilla: </p>
-
+                            <figcaption class="figure-caption text-center mt-4">Dados de conexão <br> Fonte: Senac
+                                EAD (2024)
+                            </figcaption>
+                            <p class="mt-3">Após preencher os campos, clique em <b>Conexão rápida</b> e o
+                                FileZilla
+                                tentará se conectar ao servidor – você pode acompanhar o <i>log</i> completo na
+                                área
+                                abaixo da barra de conexão rápida. Se tudo funcionar bem, você notará que a
+                                “coluna” da
+                                direita (painel do servidor) mudou para exibir uma lista de arquivos e
+                                diretórios. O
+                                nome do diretório remoto atual é listado no campo de edição no topo. Abaixo
+                                disso, você
+                                verá a árvore de diretórios remotos. Abaixo do diretório remoto, há uma lista do
+                                conteúdo do diretório remoto atual. </p>
+                            <p class="no-print">Veja o GIF demonstrando como estabelecer uma conexão rápida com
+                                o
+                                FileZilla: </p>
                             <figure class="my-auto">
                                 <div class="figure-img my-auto">
                                     <img class="img-fluid d-block my-auto mx-auto shadow radius" src="img/07.gif">
                                 </div>
                             </figure>
-
-                            <p class="acessivel no-print visually-hidden">GIF mostrando o uso do software FileZilla. Os campos Host, Nome do usuário e Senha estão preenchidos e o botão “Conexão rápida” é pressionado. Abaixo, a interface exibe o log e logo abaixo duas áreas principais: à esquerda, os arquivos locais do computador, e à direita, os arquivos no servidor remoto. Quando a conexão é estabelecida, a área de arquivos do servidor remoto, antes em branco, passa a listar a estrutura de pastas do servidor.</p>
-
-                            <p class="mt-5">Após estabelecer uma conexão rápida, os dados ficarão salvos no histórico. Para estabelecer a conexão com os mesmos dados, basta clicar na seta ao lado do botão <b>Conexão rápida</b> e selecionar a conexão. </p>
-
-                            <figure class="my-auto">
-                                <div class="figure-img my-auto">
-                                    <img class="img-fluid d-block my-auto mx-auto shadow radius" src="img/figura_08.png">
-                                </div>
-                                <figcaption class="figure-caption text-center">Histórico de conexões rápidas do FileZilla <br> Fonte: Senac EAD (2024)</figcaption>
+                            <p class="acessivel no-print visually-hidden">GIF mostrando o uso do software
+                                FileZilla. Os
+                                campos Host, Nome do usuário e Senha estão preenchidos e o botão “Conexão
+                                rápida” é
+                                pressionado. Abaixo, a interface exibe o log e logo abaixo duas áreas
+                                principais: à
+                                esquerda, os arquivos locais do computador, e à direita, os arquivos no servidor
+                                remoto.
+                                Quando a conexão é estabelecida, a área de arquivos do servidor remoto, antes em
+                                branco,
+                                passa a listar a estrutura de pastas do servidor.</p>
+                            <p class="mt-5">Após estabelecer uma conexão rápida, os dados ficarão salvos no
+                                histórico.
+                                Para estabelecer a conexão com os mesmos dados, basta clicar na seta ao lado do
+                                botão
+                                <b>Conexão rápida</b> e selecionar a conexão.
+                            </p>
+                            <figure class="my-5">
+                                <img src="img/figura_08.png"
+                                    class="img-fluid d-block mx-auto mb-3 d-none d-sm-none d-md-block d-lg-block shadow radius print"
+                                    alt="Imagem">
+                                <a href="img/figura_08.png" target="_blank"
+                                    class="img-zoom d-sm-block d-md-none d-lg-none no-print">
+                                    <img src="img/figura_08.png"
+                                        class="img-fluid d-block mx-auto mb-3 d-sm-block d-md-none d-lg-none shadow radius"
+                                        alt="Imagem">
+                                </a>
+                                <figcaption class="figure-caption text-center mt-4">Histórico de conexões rápidas do
+                                    FileZilla <br> Fonte: Senac EAD (2024)</figcaption>
                             </figure>
-
-                            <p class="acessivel no-print visually-hidden">Na imagem, a barra de conexão rápida do FileZilla com host, nome de usuário e senha preenchidos. Ao lado desses campos, o botão Conexão rápida e um botão com uma seta apontando para baixo, que foi pressionado revelando uma lista de opções, sendo elas: Limpar a barra de conexão rápida, Limpar histórico e lucfra58@162.210.102.231. Essa área com as opções está destacada em vermelho.</p>
-
+                            <p class="acessivel no-print visually-hidden">Na imagem, a barra de conexão rápida
+                                do
+                                FileZilla com host, nome de usuário e senha preenchidos. Ao lado desses campos,
+                                o botão
+                                Conexão rápida e um botão com uma seta apontando para baixo, que foi pressionado
+                                revelando uma lista de opções, sendo elas: Limpar a barra de conexão rápida,
+                                Limpar
+                                histórico e lucfra58@162.210.102.231. Essa área com as opções está destacada em
+                                vermelho.</p>
                             <h4>Transferência de arquivos</h4>
-
-                            <p>Você pode carregar ou baixar um arquivo clicando duas vezes nele. Ele será adicionado à fila de transferência e a transferência será iniciada automaticamente. Para transferir diretórios e/ou vários arquivos, selecione-os e clique com o botão direito do <i>mouse</i> na seleção. Então você pode clicar em <b>Upload</b> no menu <i>pop-up</i> que é revelado. </p>
-
-                            <figure class="my-auto">
-                                <div class="figure-img my-auto">
-                                    <img class="img-fluid d-block my-auto mx-auto shadow radius" src="img/figura_09.png">
-                                </div>
-                                <figcaption class="figure-caption text-center">Menu <i>pop-up</i> no painel local do FileZilla<br> Fonte: Senac EAD (2024)</figcaption>
+                            <p>Você pode carregar ou baixar um arquivo clicando duas vezes nele. Ele será
+                                adicionado à
+                                fila de transferência e a transferência será iniciada automaticamente. Para
+                                transferir
+                                diretórios e/ou vários arquivos, selecione-os e clique com o botão direito do
+                                <i>mouse</i> na seleção. Então você pode clicar em <b>Upload</b> no menu
+                                <i>pop-up</i>
+                                que é revelado.
+                            </p>
+                            <figure class="my-5">
+                                <img src="img/figura_09.png"
+                                    class="img-fluid d-block mx-auto mb-3 d-none d-sm-none d-md-block d-lg-block shadow radius print"
+                                    alt="Imagem">
+                                <a href="img/figura_09.png" target="_blank"
+                                    class="img-zoom d-sm-block d-md-none d-lg-none no-print">
+                                    <img src="img/figura_09.png"
+                                        class="img-fluid d-block mx-auto mb-3 d-sm-block d-md-none d-lg-none shadow radius"
+                                        alt="Imagem">
+                                </a>
+                                <figcaption class="figure-caption text-center mt-4">Menu <i>pop-up</i> no painel
+                                    local do
+                                    FileZilla<br> Fonte: Senac EAD (2024)</figcaption>
                             </figure>
-
-                            <p class="acessivel no-print visually-hidden">Na imagem, o painel local do FileZilla focado com dois arquivos sendo listados: “index.html” e “style.css”. Ambos estão selecionados e um menu de pop-up aparece sobre eles destacado em vermelho com as opções Upload, Adicionar arquivos à fila, Abrir, Editar, Criar pasta, Criar pasta e entrar nela, Atualizar, Apagar e Renomear.</p>
-
-                            <p class="mt-3">Você também pode arrastar os arquivos de um lado e soltá-los no outro lado.  </p>
-
-                            <p>Geralmente, a pasta na qual o <i>site</i> é publicado se chama “public_html” ou “www”, mas isso não é uma regra. Tudo depende do provedor de hospedagem. Nesse exemplo, não se tem a pasta “public_html” nem a “www”, e sim a pasta “senacead-test.com”, que é o nome do domínio informado ao contratar o serviço da hospedagem. Então serão selecionados alguns arquivos e arrastados para essa pasta. </p>
-
-                            <p class="no-print">Veja o GIF demonstrando como fazer a transferência de arquivos no FileZilla: </p>
-
-                            <figure class="my-auto">
-                                <div class="figure-img my-auto">
-                                    <img class="img-fluid d-block my-auto mx-auto shadow radius" src="img/10.gif">
-                                </div>
+                            <p class="acessivel no-print visually-hidden">Na imagem, o painel local do FileZilla
+                                focado
+                                com dois arquivos sendo listados: “index.html” e “style.css”. Ambos estão
+                                selecionados e
+                                um menu de pop-up aparece sobre eles destacado em vermelho com as opções Upload,
+                                Adicionar arquivos à fila, Abrir, Editar, Criar pasta, Criar pasta e entrar
+                                nela,
+                                Atualizar, Apagar e Renomear.</p>
+                            <p class="mt-3">Você também pode arrastar os arquivos de um lado e soltá-los no
+                                outro lado.
+                            </p>
+                            <p>Geralmente, a pasta na qual o <i>site</i> é publicado se chama “public_html” ou
+                                “www”,
+                                mas isso não é uma regra. Tudo depende do provedor de hospedagem. Nesse exemplo,
+                                não se
+                                tem a pasta “public_html” nem a “www”, e sim a pasta “senacead-test.com”, que é
+                                o nome
+                                do domínio informado ao contratar o serviço da hospedagem. Então serão
+                                selecionados
+                                alguns arquivos e arrastados para essa pasta. </p>
+                            <p class="no-print">Veja o GIF demonstrando como fazer a transferência de arquivos
+                                no
+                                FileZilla: </p>
+                            <figure class="my-5">
+                                <img src="img/10.gif"
+                                    class="img-fluid d-block mx-auto mb-3 d-none d-sm-none d-md-block d-lg-block shadow radius print"
+                                    alt="Imagem">
+                                <a href="img/10.gif" target="_blank"
+                                    class="img-zoom d-sm-block d-md-none d-lg-none no-print">
+                                    <img src="img/10.gif"
+                                        class="img-fluid d-block mx-auto mb-3 d-sm-block d-md-none d-lg-none shadow radius"
+                                        alt="Imagem">
+                                </a>
                             </figure>
-
-                            <p class="acessivel no-print visually-hidden">Na imagem, o painel local do FileZilla focado com dois arquivos sendo listados: “index.html” e “style.css”. Ambos estão selecionados e um menu de pop-up aparece sobre eles destacado em vermelho com as opções Upload, Adicionar arquivos à fila, Abrir, Editar, Criar pasta, Criar pasta e entrar nela, Atualizar, Apagar e Renomear.</p>
-
-                            <p class="mt-3">Ao arrastar os arquivos, o FileZilla iniciará a transferência automaticamente e você poderá acompanhar o progresso na lista de transferências. Caso haja alguma interrupção na conexão, por exemplo, o FileZilla automaticamente retomará a transferência do ponto onde foi interrompida assim que a conexão for restabelecida – ou seja, ele continuará de onde parou. Após a conclusão, os arquivos estarão disponíveis no servidor e prontos para serem acessados pelo público. </p>
-
-                            <p>Você também pode conferir se os arquivos foram transferidos por meio do painel de controle da hospedagem. </p>
-
-                            <figure class="my-auto">
-                                <div class="figure-img my-auto">
-                                    <img class="img-fluid d-block my-auto mx-auto shadow radius" src="img/figura_11.png">
-                                </div>
-                                <figcaption class="figure-caption text-center">Painel de controle da Freehostia <br> Fonte: Senac EAD (2024)</figcaption>
+                            <p class="acessivel no-print visually-hidden">Na imagem, o painel local do FileZilla
+                                focado
+                                com dois arquivos sendo listados: “index.html” e “style.css”. Ambos estão
+                                selecionados e
+                                um menu de pop-up aparece sobre eles destacado em vermelho com as opções Upload,
+                                Adicionar arquivos à fila, Abrir, Editar, Criar pasta, Criar pasta e entrar
+                                nela,
+                                Atualizar, Apagar e Renomear.</p>
+                            <p class="mt-3">Ao arrastar os arquivos, o FileZilla iniciará a transferência
+                                automaticamente e você poderá acompanhar o progresso na lista de transferências.
+                                Caso
+                                haja alguma interrupção na conexão, por exemplo, o FileZilla automaticamente
+                                retomará a
+                                transferência do ponto onde foi interrompida assim que a conexão for
+                                restabelecida – ou
+                                seja, ele continuará de onde parou. Após a conclusão, os arquivos estarão
+                                disponíveis no
+                                servidor e prontos para serem acessados pelo público. </p>
+                            <p>Você também pode conferir se os arquivos foram transferidos por meio do painel de
+                                controle da hospedagem. </p>
+                            <figure class="my-5">
+                                <img src="img/figura_11.png"
+                                    class="img-fluid d-block mx-auto mb-3 d-none d-sm-none d-md-block d-lg-block shadow radius print"
+                                    alt="Imagem">
+                                <a href="img/figura_11.png" target="_blank"
+                                    class="img-zoom d-sm-block d-md-none d-lg-none no-print">
+                                    <img src="img/figura_11.png"
+                                        class="img-fluid d-block mx-auto mb-3 d-sm-block d-md-none d-lg-none shadow radius"
+                                        alt="Imagem">
+                                </a>
+                                <figcaption class="figure-caption text-center mt-4">Painel de controle da Freehostia
+                                    <br>
+                                    Fonte: Senac EAD (2024)
+                                </figcaption>
                             </figure>
-
-                            <p class="acessivel no-print visually-hidden">Na imagem, o painel de controle da hospedagem Freehostia com um menu lateral à esquerda e o conteúdo na direita. O conteúdo apresentado tem o título “File Manager” e um texto descrevendo como usar o gerenciador de arquivos. Abaixo desse conteúdo, uma área destacada em vermelho que apresenta uma tabela que lista os arquivos “index.html” e “style.css” com o tamanho total de cada arquivo, suas permissões, tipo e data e hora de modificação.</p>
-
+                            <p class="acessivel no-print visually-hidden">Na imagem, o painel de controle da
+                                hospedagem
+                                Freehostia com um menu lateral à esquerda e o conteúdo na direita. O conteúdo
+                                apresentado tem o título “File Manager” e um texto descrevendo como usar o
+                                gerenciador
+                                de arquivos. Abaixo desse conteúdo, uma área destacada em vermelho que apresenta
+                                uma
+                                tabela que lista os arquivos “index.html” e “style.css” com o tamanho total de
+                                cada
+                                arquivo, suas permissões, tipo e data e hora de modificação.</p>
                             <h4>Organização de arquivos</h4>
-
-                            <p>Além de realizar o <i>upload</i>, o FileZilla também permite que você organize seus arquivos e suas pastas no servidor. É possível criar diretórios, renomear arquivos, mover conteúdos entre pastas e até deletar arquivos que não são mais necessários. Para isso, clique com o botão direito em qualquer arquivo ou pasta no painel remoto e selecione a ação desejada. </p>
-
-                            <figure class="my-auto">
-                                <div class="figure-img my-auto">
-                                    <img class="img-fluid d-block my-auto mx-auto shadow radius" src="img/figura_12.png">
-                                </div>
-                                <figcaption class="figure-caption text-center">Acessando opções de gerenciamento de pastas/arquivos no FileZilla <br> Fonte: Senac EAD (2024)</figcaption>
+                            <p>Além de realizar o <i>upload</i>, o FileZilla também permite que você organize
+                                seus
+                                arquivos e suas pastas no servidor. É possível criar diretórios, renomear
+                                arquivos,
+                                mover conteúdos entre pastas e até deletar arquivos que não são mais
+                                necessários. Para
+                                isso, clique com o botão direito em qualquer arquivo ou pasta no painel remoto e
+                                selecione a ação desejada. </p>
+                            <figure class="my-5">
+                                <img src="img/figura_12.png"
+                                    class="img-fluid d-block mx-auto mb-3 d-none d-sm-none d-md-block d-lg-block shadow radius print"
+                                    alt="Imagem">
+                                <a href="img/figura_12.png" target="_blank"
+                                    class="img-zoom d-sm-block d-md-none d-lg-none no-print">
+                                    <img src="img/figura_12.png"
+                                        class="img-fluid d-block mx-auto mb-3 d-sm-block d-md-none d-lg-none shadow radius"
+                                        alt="Imagem">
+                                </a>
+                                <figcaption class="figure-caption text-center mt-4">Acessando opções de gerenciamento
+                                    de
+                                    pastas/arquivos no FileZilla <br> Fonte: Senac EAD (2024)</figcaption>
                             </figure>
-
-                            <p class="acessivel no-print visually-hidden">Na imagem, a interface do FileZilla com a conexão já estabelecida em um servidor remoto. Sendo assim, o lado esquerdo (Painel do servidor) tem um conteúdo apresentado. Esse conteúdo é a pasta senacead-test.com sendo selecionada com um menu de pop-up destacado em vermelho sendo revelado sobre ela com as opções Baixar, Adicionar arquivos à fila, Entrar na pasta, Ver/editar, Criar pasta, Criar pasta e entrar nela, Criar novo arquivo, Atualizar, Apagar, Renomear, Copiar URL(s) para a área de transferência e Permissões do arquivo...  </p>
-
+                            <p class="acessivel no-print visually-hidden">Na imagem, a interface do FileZilla
+                                com a
+                                conexão já estabelecida em um servidor remoto. Sendo assim, o lado esquerdo
+                                (Painel do
+                                servidor) tem um conteúdo apresentado. Esse conteúdo é a pasta senacead-test.com
+                                sendo
+                                selecionada com um menu de pop-up destacado em vermelho sendo revelado sobre ela
+                                com as
+                                opções Baixar, Adicionar arquivos à fila, Entrar na pasta, Ver/editar, Criar
+                                pasta,
+                                Criar pasta e entrar nela, Criar novo arquivo, Atualizar, Apagar, Renomear,
+                                Copiar
+                                URL(s) para a área de transferência e Permissões do arquivo... </p>
                             <h4>Desconectando do servidor</h4>
-
-                            <p>Após concluir a transferência de arquivos, desconecte-se do servidor para evitar conexões abertas, que podem representar riscos de segurança. Para isso, clique em <b>Servidor</b> > <b>Desconectar</b> ou clique no ícone de servidor com X disponível na barra de ferramentas. </p>
-
-                            <p class="no-print">Veja o GIF demonstrando como desconectar do servidor remoto: </p>
-
-                            <figure class="my-auto">
-                                <div class="figure-img my-auto">
-                                    <img class="img-fluid d-block my-auto mx-auto shadow radius" src="img/13.gif">
-                                </div>
+                            <p>Após concluir a transferência de arquivos, desconecte-se do servidor para evitar
+                                conexões
+                                abertas, que podem representar riscos de segurança. Para isso, clique em
+                                <b>Servidor</b>
+                                > <b>Desconectar</b> ou clique no ícone de servidor com X disponível na barra de
+                                ferramentas.
+                            </p>
+                            <p class="no-print">Veja o GIF demonstrando como desconectar do servidor remoto:
+                            </p>
+                            <figure class="my-5">
+                                <img src="img/13.gif"
+                                    class="img-fluid d-block mx-auto mb-3 d-none d-sm-none d-md-block d-lg-block shadow radius print"
+                                    alt="Imagem">
+                                <a href="img/13.gif" target="_blank"
+                                    class="img-zoom d-sm-block d-md-none d-lg-none no-print">
+                                    <img src="img/13.gif"
+                                        class="img-fluid d-block mx-auto mb-3 d-sm-block d-md-none d-lg-none shadow radius"
+                                        alt="Imagem">
+                                </a>
                             </figure>
-
-                            <p class="acessivel no-print visually-hidden">GIF mostrando o uso do software FileZilla. A interface exibe duas áreas principais: à esquerda, os arquivos locais do computador, e à direita, os arquivos no servidor remoto. O usuário transferiu arquivos de uma pasta local para uma pasta no servidor remoto, com mensagens de status confirmando o sucesso da operação na parte inferior. O mouse se posiciona sobre a opção Servidor localizada na barra de opções no topo da tela e revela, por meio de um menu flutuante, a opção Desconectar. Esse menu é dispensado e o mouse se posiciona sobre o ícone de desconectar localizado abaixo da barra de opções.</p>
-
-                            <p class="mt-3">Agora que você entendeu como a transferência de arquivos funciona, veja, na prática, como realizar esse processo passo a passo. </p>
-
+                            <p class="acessivel no-print visually-hidden">GIF mostrando o uso do software
+                                FileZilla. A
+                                interface exibe duas áreas principais: à esquerda, os arquivos locais do
+                                computador, e à
+                                direita, os arquivos no servidor remoto. O usuário transferiu arquivos de uma
+                                pasta
+                                local para uma pasta no servidor remoto, com mensagens de status confirmando o
+                                sucesso
+                                da operação na parte inferior. O mouse se posiciona sobre a opção Servidor
+                                localizada na
+                                barra de opções no topo da tela e revela, por meio de um menu flutuante, a opção
+                                Desconectar. Esse menu é dispensado e o mouse se posiciona sobre o ícone de
+                                desconectar
+                                localizado abaixo da barra de opções.</p>
+                            <p class="mt-3">Agora que você entendeu como a transferência de arquivos funciona,
+                                veja, na
+                                prática, como realizar esse processo passo a passo. </p>
                             <p class="no-print">Clique ou toque para assistir ao vídeo.</p>
-
                             <div class="ratio ratio-16x9">
-                                <iframe src="https://www.youtube.com/embed/1DhSfseMvNk?si=jBpb_1efs-eGcRb8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                <iframe src="https://www.youtube.com/embed/1DhSfseMvNk?si=jBpb_1efs-eGcRb8"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    allowfullscreen></iframe>
                             </div>
-
                             <h4>Dicas de segurança e solução de problemas comuns</h4>
-
-                            <p>Agora veja alguns problemas comuns que podem ocorrer ao usar o FileZilla, especialmente se as configurações do servidor ou da rede local interferirem na conexão. </p>
-
+                            <p>Agora veja alguns problemas comuns que podem ocorrer ao usar o FileZilla,
+                                especialmente
+                                se as configurações do servidor ou da rede local interferirem na conexão. </p>
                             <p class="no-print">Clique ou toque para visualizar o conteúdo. </p>
-
                             <div class="accordion" id="accordionProblemas">
-
                                 <div class="accordion-item">
                                     <h2 class="accordion-header" id="heading21">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse21" aria-expanded="false" aria-controls="collapse21">
-                                            Falha de conexão  
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapse21" aria-expanded="false"
+                                            aria-controls="collapse21">
+                                            Falha de conexão
                                         </button>
                                     </h2>
-                                    <div id="collapse21" class="accordion-collapse collapse" aria-labelledby="heading21" data-bs-parent="#accordionProblemas">
+                                    <div id="collapse21" class="accordion-collapse collapse" aria-labelledby="heading21"
+                                        data-bs-parent="#accordionProblemas">
                                         <div class="accordion-body">
-                                            <p>Verifique as credenciais e a configuração da rede. Em alguns casos, o <i>firewall</i> ou o antivírus podem bloquear a conexão FTP. </p>
+                                            <p>Verifique as credenciais e a configuração da rede. Em alguns
+                                                casos, o
+                                                <i>firewall</i> ou o antivírus podem bloquear a conexão FTP.
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
-                            
                                 <div class="accordion-item">
                                     <h2 class="accordion-header" id="heading22">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse22" aria-expanded="false" aria-controls="collapse22">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapse22" aria-expanded="false"
+                                            aria-controls="collapse22">
                                             Permissões de arquivo
                                         </button>
                                     </h2>
-                                    <div id="collapse22" class="accordion-collapse collapse" aria-labelledby="heading22" data-bs-parent="#accordionProblemas">
+                                    <div id="collapse22" class="accordion-collapse collapse" aria-labelledby="heading22"
+                                        data-bs-parent="#accordionProblemas">
                                         <div class="accordion-body">
-                                            <p>Se você não consegue modificar um arquivo no servidor, pode ser que as permissões estejam restritas. Verifique com o provedor de hospedagem para ajustar as permissões – em alguns casos, você pode corrigir isso pelo painel de controle da hospedagem.</p>
+                                            <p>Se você não consegue modificar um arquivo no servidor, pode ser
+                                                que as
+                                                permissões estejam restritas. Verifique com o provedor de
+                                                hospedagem
+                                                para ajustar as permissões – em alguns casos, você pode corrigir
+                                                isso
+                                                pelo painel de controle da hospedagem.</p>
                                         </div>
                                     </div>
                                 </div>
-                            
                                 <div class="accordion-item">
                                     <h2 class="accordion-header" id="heading23">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse23" aria-expanded="false" aria-controls="collapse23">
-                                            Conexões seguras 
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapse23" aria-expanded="false"
+                                            aria-controls="collapse23">
+                                            Conexões seguras
                                         </button>
                                     </h2>
-                                    <div id="collapse23" class="accordion-collapse collapse" aria-labelledby="heading23" data-bs-parent="#accordionProblemas">
+                                    <div id="collapse23" class="accordion-collapse collapse" aria-labelledby="heading23"
+                                        data-bs-parent="#accordionProblemas">
                                         <div class="accordion-body">
-                                            <p>Se o seu servidor suportar os protocolos SFTP e FTPS, opte por eles, pois oferecem maior segurança com criptografia dos dados transferidos. </p>
+                                            <p>Se o seu servidor suportar os protocolos SFTP e FTPS, opte por
+                                                eles, pois
+                                                oferecem maior segurança com criptografia dos dados
+                                                transferidos. </p>
                                         </div>
                                     </div>
                                 </div>
-                            
                             </div>
-
-                              
-
                         </div>
-
                         <div class="encerramento" style="margin-left: 10%;">
-                            
-                            <h3>Encerramento</h3>
-    
-                            <p>A publicação de aplicações <i>web</i> é um processo essencial para tornar <i>sites</i> e sistemas acessíveis ao público. O uso do FTP e ferramentas como o FileZilla proporciona uma solução prática e segura para a transferência de arquivos ao publicar aplicações na <i>web</i>. Desde a instalação e conexão até a organização e segurança, o conhecimento desses processos capacita desenvolvedores a gerenciar seus <i>sites</i> com eficiência. A familiaridade com o FileZilla e as boas práticas de segurança, como desconectar após cada sessão e solucionar problemas comuns, garantem que as publicações sejam realizadas de forma tranquila e com baixo risco.</p>
-    
-                            <p>Como você pôde ver, a maioria das tarefas pode ser concluída de várias maneiras. As maneiras escolhidas para este conteúdo foram as mais claras. Com tempo e experiência, você encontrará maneiras muito mais rápidas de realizar as tarefas para atuar em um ambiente de hospedagem profissional com muito mais confiança e <i>expertise</i>. </p>
-
+                            <div class="row g0">
+                                <div class="col-md-6 my-auto">
+                                    <h3>Encerramento</h3>
+                                    <p>A publicação de aplicações <i>web</i> é um processo essencial para tornar
+                                        <i>sites</i> e
+                                        sistemas acessíveis ao público. O uso do FTP e ferramentas como o FileZilla
+                                        proporciona
+                                        uma solução prática e segura para a transferência de arquivos ao publicar
+                                        aplicações na
+                                        <i>web</i>. Desde a instalação e conexão até a organização e segurança, o
+                                        conhecimento
+                                        desses processos capacita desenvolvedores a gerenciar seus <i>sites</i> com
+                                        eficiência.
+                                        A familiaridade com o FileZilla e as boas práticas de segurança, como
+                                        desconectar após
+                                        cada sessão e solucionar problemas comuns, garantem que as publicações sejam
+                                        realizadas
+                                        de forma tranquila e com baixo risco.
+                                    </p>
+                                </div>
+                                <div class="col-md-6 d-flex mb-5">
+                                    <figure class="my-auto">
+                                        <div class="figure-img my-auto">
+                                            <img class="img-fluid d-block my-auto mx-auto" src="img/img7.png">
+                                        </div>
+                                    </figure>
+                                </div>
+                            </div>
+                            <p>Como você pôde ver, a maioria das tarefas pode ser concluída de várias maneiras.
+                                As
+                                maneiras escolhidas para este conteúdo foram as mais claras. Com tempo e
+                                experiência,
+                                você encontrará maneiras muito mais rápidas de realizar as tarefas para atuar em
+                                um
+                                ambiente de hospedagem profissional com muito mais confiança e <i>expertise</i>.
+                            </p>
                         </div>
-
-                        
-                        
-
-                
-                        
                     </div>
                 </div>
 

@@ -1,28 +1,28 @@
 #booklet {
   background: url(../img/BG1.png),
-              url(../img/BG2.jpg);
+    url(../img/BG2.jpg);
   background-repeat: no-repeat, repeat-y;
   background-size: 100%, 100%;
   padding-top: 150px;
 }
 
 
-.transferencia{
-    border: 3px solid #42b8cf;
-    padding: 4%;
-    -webkit-box-shadow: 10px 10px 0px 10px rgba(66,184,207,1);
-    -moz-box-shadow: 10px 10px 0px 10px rgba(66,184,207,1);
-    box-shadow: 12px 12px 0px 0px rgba(66,184,207,1);
+.transferencia {
+  border: 3px solid #42b8cf;
+  padding: 4%;
+  -webkit-box-shadow: 10px 10px 0px 10px rgba(66, 184, 207, 1);
+  -moz-box-shadow: 10px 10px 0px 10px rgba(66, 184, 207, 1);
+  box-shadow: 12px 12px 0px 0px rgba(66, 184, 207, 1);
 }
 
- tr, td{
-    border: 3px solid #b4bfce;
+tr,
+td {
+  border: 3px solid #b4bfce;
 }
 
 
 thead {
-    background-image: linear-gradient(
-      90deg,
+  background-image: linear-gradient(90deg,
       hsl(215deg 21% 76%) 0%,
       hsl(230deg 17% 73%) 7%,
       hsl(248deg 15% 69%) 14%,
@@ -37,34 +37,60 @@ thead {
       hsl(298deg 37% 31%) 79%,
       hsl(299deg 47% 27%) 86%,
       hsl(300deg 62% 22%) 93%,
-      hsl(300deg 100% 17%) 100%
-    );
-  }
+      hsl(300deg 100% 17%) 100%);
+}
 
-  thead th:first-child{
-    width: 25%;
-  }
+thead th:first-child {
+  width: 25%;
+}
 
-  tr td:last-child{
-    padding: 30px;
-  }
+tr td:last-child {
+  padding: 30px;
+}
 
-  td > b {
-    font-size: 16px;
-  }
+td>b {
+  font-size: 16px;
+}
 
-  .bg-escuro .accordion-body p{
-    color: black;
-  }
+.bg-escuro .accordion-body p {
+  color: black;
+}
 
-  @media screen and (max-width:1440px) {
+@media screen and (max-width:1440px) {
 
-    #booklet {
+  /*     #booklet {
       background: none,
                   url(../img/BG2.jpg);
       background-repeat: unset, repeat-y;
       background-size: unset, 100%;
       padding-top: 150px;
-    }
-    
+    } */
+  #booklet {
+    background: url(../img/BG1.png), url(../img/BG2.jpg);
+    background-repeat: no-repeat, repeat-y;
+    background-size: 100%, 100%;
+  }
+
+}
+
+@media screen and (max-width:820px) {
+  #booklet {
+    padding-top: 200px;
+  }
+
+  .destaque.icone{
+    margin: 38px 0;
+  }
+}
+
+
+
+
+@media screen and (max-width:500px) {
+  #booklet {
+    background: url(../img/BG1.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-top: 98px;
+  }
 }
