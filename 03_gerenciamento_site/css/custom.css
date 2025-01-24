@@ -44,7 +44,7 @@
 
 .bloco3 {
     background:
-        url('../img/elem1.png') no-repeat 0% 34%,
+        url('../img/elem1.png') no-repeat 0% 36%,
         url('../img/elem2.png') no-repeat 100% 49%,
         url('../img/elem3.png') no-repeat 0% 60%,
         url('../img/elem4.png') no-repeat 100% 72%,
@@ -57,7 +57,8 @@
     padding-top: 5%;
     padding-bottom: 5%;
     margin-bottom: -1%
-}
+} 
+
 
 .bloco4 {
     margin-top: -5%;
