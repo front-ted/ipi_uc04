@@ -48,7 +48,7 @@ tr td:last-child {
   padding: 30px;
 }
 
-td>b {
+.texto-menor{
   font-size: 16px;
 }
 
