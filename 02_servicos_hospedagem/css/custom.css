@@ -10,7 +10,7 @@
     position: relative;
 }
 
-.bg-escuro .bloco1{
+.bg-escuro .bloco1 {
     position: unset;
 }
 
@@ -34,22 +34,22 @@
     margin-bottom: -6%;
 }
 
-.bloco2{
+.bloco2 {
     background: url('../img/bg2.jpg') no-repeat;
     background-size: 100%;
     background-attachment: fixed;
 }
 
-.bloco3{
+.bloco3 {
     background: url('../img/bg3.jpg') no-repeat;
     padding-top: 10%;
 }
 
-.bloco3 h3{
+.bloco3 h3 {
     color: #fff;
 }
 
-.bloco3 p{
+.bloco3 p {
     color: #fff;
 }
 
@@ -58,27 +58,27 @@
     filter: drop-shadow(5px 5px 4px rgba(0, 0, 0, 0.2));
 }
 
-.img-destaque{
+.img-destaque {
     margin-top: 5%;
 }
 
-.img-destaque2{
+.img-destaque2 {
     margin-top: 32%;
 }
 
-.bg-escuro .bloco2 p{
+.bg-escuro .bloco2 p {
     color: #000;
 }
 
-.bg-escuro .bloco2 h3{
+.bg-escuro .bloco2 h3 {
     color: #000;
 }
 
-.bg-escuro .bloco2 h4{
+.bg-escuro .bloco2 h4 {
     color: #000;
 }
 
-.bg-escuro .bloco2 figcaption{
+.bg-escuro .bloco2 figcaption {
     color: #4a4a4a;
 }
 
@@ -104,7 +104,7 @@
         transform: scale(0.9);
     }
 
-    .bloco2{
+    .bloco2 {
         background: url('../img/bg2.jpg') repeat;
         background-size: 100%;
     }
@@ -122,8 +122,12 @@
         display: none !important;
     }
 
-    .bloco2{
+    .bloco2 {
         background: unset;
+    }
+
+    .br-desktop {
+        display: none;
     }
 }
 
@@ -145,6 +149,13 @@
     .img-destaque2 {
         margin-top: 34%;
     }
+
+    /* .bloco1 {
+        background: url('../img/bg1.jpg') no-repeat;
+        padding-bottom: 10%;
+        position: relative;
+        background-size: 100%;
+    } */
 }
 
 @media screen and (max-width:500px) {
@@ -152,16 +163,18 @@
         margin-top: unset;
     }
 
-    .img-destaque2{
+    .img-destaque2 {
         margin-top: unset;
     }
-    .bloco3{
+
+    .bloco3 {
         background-size: cover;
     }
 
-    .bloco3 .container{
+    .bloco3 .container {
         padding-top: 12%;
     }
+
     .bloco2 .container {
         border-radius: 80px;
         margin-top: -7%;
@@ -173,11 +186,12 @@
         padding-bottom: 5%;
         margin-bottom: -15%;
     }
-    .paragrafo-mob{
+
+    .paragrafo-mob {
         margin-top: 7%;
     }
 
-    .img-mob{
+    .img-mob {
         width: 50%;
     }
 }
