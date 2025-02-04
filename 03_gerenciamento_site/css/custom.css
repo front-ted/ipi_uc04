@@ -172,6 +172,13 @@ body {
         margin-left: 13%;
     }
 
+    .img-divisa {
+        margin-top: -24%;
+        border-radius: 20px;
+        filter: drop-shadow(5px 5px 4px rgba(0, 0, 0, 0.2));
+        position: relative;
+    }
+
     .bloco2 {
         background: url(../img/bg2_esq.png) no-repeat 0% 15%, url(../img/bg2_dir.png) no-repeat 0% 65%, url(../img/div2_esq.png) no-repeat 0% bottom, url(../img/div2_dir.png) no-repeat 100% bottom;
         padding-top: 5%;
@@ -259,7 +266,8 @@ body {
     }
 
     .bloco1 {
-        background: url(../img/bg1.png) no-repeat;
+        background: url('../img/bg1-mob.png') no-repeat;
+        background-size: 143%;
 
     }
 
@@ -334,6 +342,11 @@ body {
     .img-encerramento {
         margin-top: 39%;
     }
+
+    .img-divisa {
+        width: 70%;
+        margin-bottom: 0%;
+    }
 }
 
 @media screen and (max-width:500px) {
@@ -405,9 +418,9 @@ body {
 
 
 @media screen and (max-width:414px) {
-    .bloco1 {
-        background-size: 475%;
-        padding-bottom: 10%;
+
+    .img-divisa {
+        margin-top: -28%;
     }
 }
 

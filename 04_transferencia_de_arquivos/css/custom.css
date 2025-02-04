@@ -1,5 +1,5 @@
 #booklet {
-  background: url(../img/BG1.png),
+  background: url('../img/bg1-ajuste.png'),
     url(../img/BG2.jpg);
   background-repeat: no-repeat, repeat-y;
   background-size: 100%, 100%;
@@ -48,7 +48,7 @@ tr td:last-child {
   padding: 30px;
 }
 
-.texto-menor{
+.texto-menor {
   font-size: 16px;
 }
 
@@ -65,11 +65,13 @@ tr td:last-child {
       background-size: unset, 100%;
       padding-top: 150px;
     } */
-  #booklet {
-    background: url(../img/BG1.png), url(../img/BG2.jpg);
-    background-repeat: no-repeat, repeat-y;
-    background-size: 100%, 100%;
-  }
+    #booklet {
+      background: url('../img/bg1-ajuste.png'),
+        url(../img/BG2.jpg);
+      background-repeat: no-repeat, repeat-y;
+      background-size: 100%, 100%;
+      padding-top: 150px;
+    }
 
 }
 
@@ -78,8 +80,19 @@ tr td:last-child {
     padding-top: 200px;
   }
 
-  .destaque.icone{
+  .destaque.icone {
     margin: 38px 0;
+  }
+
+  .destaque.icone::before {
+    top: -40px;
+    bottom: unset;
+    left: 0;
+    right: 0;
+  }
+
+  .destaque.icone {
+    margin: 63px 0;
   }
 }
 
@@ -92,5 +105,12 @@ tr td:last-child {
     background-repeat: no-repeat;
     background-size: 100%;
     padding-top: 98px;
+  }
+
+  .destaque.icone::before {
+    top: -30px;
+    bottom: unset;
+    left: 0;
+    right: 0;
   }
 }
