@@ -215,7 +215,6 @@ body {
 }
 
 @media screen and (max-width:1100px) {
-
     body {
 
         background: none;
@@ -259,8 +258,6 @@ body {
         background: url(../img/dest2.png) no-repeat;
         background-repeat: no-repeat;
     }
-
-
 }
 
 @media screen and (max-width:500px) {

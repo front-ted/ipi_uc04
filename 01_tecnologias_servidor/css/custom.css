@@ -47,7 +47,6 @@ body {
     border: none;
 }
 
-
 .painel-empresas .botao {
     margin-left: 3%
 }
@@ -190,7 +189,6 @@ body {
 }
 
 
-
 @media screen and (max-width:1440px) {
     body {
         background: url('../img/bg_top.png') no-repeat 0% 1%,
@@ -241,7 +239,6 @@ body {
 }
 
 
-
 @media screen and (max-width:820px) {
     .painel-empresas {
         transform: scale(0.8);
@@ -275,7 +272,6 @@ body {
         margin-bottom: unset;
     }
 }
-
 
 
 @media screen and (max-width:500px) {

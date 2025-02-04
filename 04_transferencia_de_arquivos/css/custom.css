@@ -55,14 +55,13 @@ tr td:last-child {
 }
 
 @media screen and (max-width:1440px) {
-    #booklet {
-      background: url('../img/bg1-ajuste.png'),
-        url(../img/BG2.jpg);
-      background-repeat: no-repeat, repeat-y;
-      background-size: 100%, 100%;
-      padding-top: 150px;
-    }
-
+  #booklet {
+    background: url('../img/bg1-ajuste.png'),
+      url(../img/BG2.jpg);
+    background-repeat: no-repeat, repeat-y;
+    background-size: 100%, 100%;
+    padding-top: 150px;
+  }
 }
 
 @media screen and (max-width:820px) {
