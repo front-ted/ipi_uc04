@@ -1,5 +1,4 @@
 body {
-
     background: url('../img/bg_elem1.png') left top,
         url('../img/bg_elem2.png') right 20%,
         url('../img/bg_elem3.png') left 45%,
@@ -191,7 +190,6 @@ body {
             repeat-y;
         background-size: 20%;
     }
-
 }
 
 @media screen and (max-width:1350px) {
@@ -214,7 +212,6 @@ body {
             repeat-y;
         background-size: 15%;
     }
-
 }
 
 @media screen and (max-width:1100px) {
@@ -266,15 +263,6 @@ body {
 
 }
 
-
-
-
-
-
-
-
-
-
 @media screen and (max-width:500px) {
 
     .destaque.dest1::before {
@@ -315,7 +303,6 @@ body {
         margin-right: unset;
         margin-top: 80% !important;
     }
-
 }
 
 

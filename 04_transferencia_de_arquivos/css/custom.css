@@ -6,7 +6,6 @@
   padding-top: 150px;
 }
 
-
 .transferencia {
   border: 3px solid #42b8cf;
   padding: 4%;
@@ -19,7 +18,6 @@ tr,
 td {
   border: 3px solid #b4bfce;
 }
-
 
 thead {
   background-image: linear-gradient(90deg,
@@ -57,14 +55,6 @@ tr td:last-child {
 }
 
 @media screen and (max-width:1440px) {
-
-  /*     #booklet {
-      background: none,
-                  url(../img/BG2.jpg);
-      background-repeat: unset, repeat-y;
-      background-size: unset, 100%;
-      padding-top: 150px;
-    } */
     #booklet {
       background: url('../img/bg1-ajuste.png'),
         url(../img/BG2.jpg);
@@ -95,9 +85,6 @@ tr td:last-child {
     margin: 63px 0;
   }
 }
-
-
-
 
 @media screen and (max-width:500px) {
   #booklet {
